@@ -90,6 +90,29 @@ azd env get-values > .env
 ./test-api.sh
 ```
 
+### Fabric Rest to GraphQL MCP Server
+
+We will utilize the `MCP Servers` APIM feature to present the new `Sensors Rest` API as an MCP (Model Context Protocol) server, allowing an Agent to manage the sensors data.
+
+* APIM > APIs > MCP Servers
+* Create MCP Server > Expose an API as MCP Server
+* API `Rest to GraphQL Fabric API`
+* API Operations : All
+* Display Name: `sensors-mcp`
+
+
+![MCP](./img/mcp-sensors.png)
+
+### The Sensors Agent
+
+Once the `sensors-mcp`sensor available, it's possible to use it with Agents.
+
+#### Github Copilot
+
+* Open `.vscode/mcp.json` Click on Start
+* Open `Github Copilot` Side Window and interact with the agent.
+
+
 ## Orders REST API
 
 The files in `orders-rest-api` folder implement a complete REST API for managing orders with full CRUD (Create, Read, Update, Delete) operations.
