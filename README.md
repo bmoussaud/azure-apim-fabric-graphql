@@ -5,9 +5,7 @@ This repository demonstrates how to integrate Fabric GraphQL API with Azure API 
 ![Azure API Management with GitHub GraphQL](./logo-apim-github.png)
 
 
-## Setup
-
-### Configure Fabric
+## Configure Fabric
 1. Create a new Lakehouse, Load the data (`fabriq-graphql/factory_iot_data.csv`) and transform them into a table
 2. Create a new `API For GraphQL` item, bind it to the table.
 3. Copy the endpoint and set value in infra/main.parameters.json
@@ -17,13 +15,13 @@ This repository demonstrates how to integrate Fabric GraphQL API with Azure API 
     }
 ```
 
-### Configure The sample
+## Configure The sample
 
 1. Trigger `azd up` to update the Azure APIM Configuration
 2. Get the name of the created managed identity `apim-mi-xxxxxxxx` 
 3. At the workspace level,using the `Manage Acess` menu; assign the managed identity `apim-mi-xxxx ` as a contributor of the workspace.
 
-### Test
+## Test
 
 ```bash
 cd fabric-graphql
@@ -71,18 +69,18 @@ Documentation:
 * https://learn.microsoft.com/en-us/fabric/data-engineering/api-graphql-azure-api-management
 
 
-### Fabric Rest to GraphQL
+## Fabric Rest to GraphQL
 
 The files in `fabric-rest-2-graphql` folder declare and implement two REST operations on sensors:
 
-#### API Operations
+### API Operations
 
 - **GET `/sensors`**: Returns a list of available sensors. This endpoint retrieves sensor records from the underlying Fabric GraphQL API and is typically used to browse or list sensors and their metadata.
 - **GET `/sensors/{deviceid}`**: Returns details for a single sensor identified by its `deviceid`. This endpoint looks up a specific sensor and returns its details (for example, timestamp, building identifier, and device identifier). Internally, the REST call is translated into a filtered GraphQL query against the Fabric API.
 
 Both endpoints require an API key provided via the `Ocp-Apim-Subscription-Key` header or query string, as configured in Azure API Management.
 
-#### Test
+### Test
 
 ```bash
 cd fabric-rest-2-graphql
@@ -90,7 +88,7 @@ azd env get-values > .env
 ./test-api.sh
 ```
 
-### Fabric Rest to GraphQL MCP Server
+## Fabric Rest to GraphQL MCP Server
 
 We will utilize the `MCP Servers` APIM feature to present the new `Sensors Rest` API as an MCP (Model Context Protocol) server, allowing an Agent to manage the sensors data.
 
@@ -103,27 +101,26 @@ We will utilize the `MCP Servers` APIM feature to present the new `Sensors Rest`
 
 ![MCP](./img/mcp-sensors.png)
 
-### The Sensors Agent
+## The Sensors Agent
 
 Once the `sensors-mcp`sensor available, it's possible to use it with Agents.
 
-#### Demo: MCP and Github Copilot Agent Mode
-<video src="https://github.com/user-attachments/assets/f5c78a18-4c60-4be8-953a-f9cc9d5f7397" width="600" autoplay loop muted>
-   Your browser does not support the video tag.
-</video>
+### Demo: MCP and Github Copilot Agent Mode
 
-
-#### Github Copilot
 
 * Open `.vscode/mcp.json` Click on Start
 * Open `Github Copilot` Side Window and interact with the agent.
+
+<video src="https://github.com/user-attachments/assets/f5c78a18-4c60-4be8-953a-f9cc9d5f7397" width="600" autoplay loop muted>
+   Your browser does not support the video tag.
+</video>
 
 
 ## Orders REST API
 
 The files in `orders-rest-api` folder implement a complete REST API for managing orders with full CRUD (Create, Read, Update, Delete) operations.
 
-### Features
+#### Features
 
 - **List Orders**: Get all orders with optional filtering by status and limit
 - **Get Order**: Retrieve a specific order by ID
@@ -134,7 +131,7 @@ The files in `orders-rest-api` folder implement a complete REST API for managing
 - **FastAPI**: Modern Python framework with automatic OpenAPI documentation
 - **Pydantic**: Data validation and serialization
 
-### Local Development and Testing
+#### Local Development and Testing
 
 #### Installation
 
