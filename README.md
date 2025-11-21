@@ -107,6 +107,12 @@ We will utilize the `MCP Servers` APIM feature to present the new `Sensors Rest`
 
 Once the `sensors-mcp`sensor available, it's possible to use it with Agents.
 
+#### Demo: MCP and Github Copilot Agent Mode
+<video src="https://github.com/user-attachments/assets/f5c78a18-4c60-4be8-953a-f9cc9d5f7397" width="600" autoplay loop muted>
+   Your browser does not support the video tag.
+</video>
+
+
 #### Github Copilot
 
 * Open `.vscode/mcp.json` Click on Start
