@@ -22,10 +22,10 @@ echo -e "\n---\n"
 
 # Test 2: Valid query using available schema
 QUERY='query { factory_iot_datas(first: 10) { items { Timestamp BuildingID DeviceID Location MetricType Value Unit Status } hasNextPage endCursor } }'
-echo "Testing legrand_iot_datas query..."
+echo "Running query: $QUERY"
+echo "Testing iot_datas query..."
 curl -X POST "$FABRIC_GRAPHQL_API_URL" \
   -H "Ocp-Apim-Subscription-Key: ${FABRIC_GRAPQL_APIM_SUBSCRIPTION_KEY}"  \
   -H "Content-Type: application/json" \
   -d "{\"query\": \"$QUERY\"}" \
-  -w "\nHTTP Status: %{http_code}\nTime: %{time_total}s\n" \
-  -v
+  -w "\nHTTP Status: %{http_code}\nTime: %{time_total}s\n"  | jq '.'  # Pretty print JSON response using jq

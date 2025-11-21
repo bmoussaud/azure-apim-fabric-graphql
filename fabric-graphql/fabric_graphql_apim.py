@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
 
 fabricEndpoint = os.getenv("FABRIC_GRAPHQL_API_URL")
-apim_subscription_key = os.getenv("FABRIC_APIM_SUBSCRIPTION_KEY")
+apim_subscription_key = os.getenv("FABRIC_GRAPQL_APIM_SUBSCRIPTION_KEY")
 
 if not fabricEndpoint or not apim_subscription_key:
-    raise ValueError("FABRIC_GRAPHQL_API_URL and FABRIC_APIM_SUBSCRIPTION_KEY must be set in environment variables.")
+    raise ValueError("FABRIC_GRAPHQL_API_URL and FABRIC_GRAPQL_APIM_SUBSCRIPTION_KEY must be set in environment variables.")
 
 # Prepare headers
 headers = {

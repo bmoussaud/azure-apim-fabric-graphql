@@ -6,9 +6,7 @@ param location string = resourceGroup().location
 @description('Name of the the environment which is used to generate a short unique hash used in all resources.')
 param environmentName string
 
-@description('GitHub Personal Access Token for GraphQL API access')
-@secure()
-param githubToken string
+
 
 @description('Fabric GraphQL Endpoint URL')
 param fabricGraphQLEndpoint string = 'https://path-to-fabric-graphql-endpoint/graphql'
@@ -114,58 +112,6 @@ module apiManagement 'modules/api-management.bicep' = {
     skuCount: 1
     aiName: applicationInsights.outputs.aiName
     managedIdentityResourceId: apimManagedIdentity.id
-  }
-}
-
-module githubGraphqlApi 'modules/graphql-api.bicep' = {
-  name: 'github-graphql-api'
-  params: {
-    apimName: apiManagement.outputs.name
-    appInsightsId: applicationInsights.outputs.aiId
-    appInsightsInstrumentationKey: applicationInsights.outputs.instrumentationKey
-    
-    api: {
-      name: 'github-graphql-api'
-      description: 'Github API'
-      displayName: 'Github API'
-      path: '/github-graphql'
-      serviceUrl: 'https://api.github.com/graphql'
-      subscriptionRequired: true
-      tags: ['github', 'api', 'graphql']
-      policyXml: loadTextContent('../github-graphql-sample/github-graphql-policy.xml')
-      schema: loadTextContent('../github-graphql-sample/github-schema-minimal.graphql')
-      namedValues: {}
-      secretNamedValues: {
-        'github-graphql-token': githubToken
-      }
-    }
-    
-  }
-}
-
-module githubRest2GraphqlApi 'modules/api.bicep' = {
-  name: 'github-rest-to-graphql-api'
-  params: {
-    apimName: apiManagement.outputs.name
-    appInsightsId: applicationInsights.outputs.aiId
-    appInsightsInstrumentationKey: applicationInsights.outputs.instrumentationKey
-    
-    api: {
-      name: 'github-rest-to-graphql-api'
-      description: 'Rest to GraphQL Github API'
-      displayName: 'Rest to GraphQL Github API'
-      path: '/github-rest-to-graphql'
-      serviceUrl: 'https://api.github.com/graphql'
-      subscriptionRequired: true
-      tags: ['github', 'api', 'rest']
-      policyXml: loadTextContent('../github-rest-2-graphql/github-rest-to-graphql-policy-base.xml')
-      value: loadTextContent('../github-rest-2-graphql/swagger.json')
-      namedValues: {}
-      secretNamedValues: {
-        'github-graphql-token': githubToken
-      }
-    }
-    
   }
 }
 
@@ -280,9 +226,7 @@ output FABRIC_GRAPQL_APIM_SUBSCRIPTION_KEY string = fabricGraphqlApi.outputs.sub
 output FABRIC_MCP_ENDPOINT string = 'https://${apiManagement.outputs.apiManagementProxyHostName}/sensors-mcp/mcp'
 output FABRIC_REST_API_URL string = 'https://${apiManagement.outputs.apiManagementProxyHostName}/${fabricbRest2GraphqlApi.outputs.apiPath}'
 output FABRIC_REST_APIM_SUBSCRIPTION_KEY string = fabricbRest2GraphqlApi.outputs.subscriptionPrimaryKey
-output GITHUB_APIM_SUBSCRIPTION_KEY string = githubGraphqlApi.outputs.subscriptionPrimaryKey
-output GITHUB_GRAPHQL_API_URL string = 'https://${apiManagement.outputs.apiManagementProxyHostName}/${githubGraphqlApi.outputs.apiPath}'
-output GITHUB_TOKEN string = githubToken
+
 output OAUTH_TENANT_ID string = tenant().tenantId
 output SUBSCRIPTION_ID string = subscription().subscriptionId
 output ORDERS_API_URL string = 'https://${apiManagement.outputs.apiManagementProxyHostName}/${ordersApi.outputs.apiPath}'

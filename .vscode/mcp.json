@@ -1,10 +1,10 @@
 {
 	"servers": {
 		"setlistfm": {
-			"url": "https://apim-tgebslojbs6y2.azure-api.net/sensors-mcp/mcp",
+			"url": "https://apim-ihk2ljhxzcta6.azure-api.net/sensors-mcp/mcp",
 			"type": "http",
 			"headers": {
-				"Ocp-Apim-Subscription-Key":"918e1b8107754110a442f805f89c76f1"
+				"Ocp-Apim-Subscription-Key":"7a88b7e089124817a223d4a1b809b760"
 			}
 		}
 	},
