@@ -2,7 +2,7 @@
 
 This repository demonstrates how to integrate Fabric GraphQL API with Azure API Management (APIM).
 
-![Azure API Management with GitHub GraphQL](./logo-apim-github.png)
+![Azure API Management with Fabric GraphQL](./img/fabric_apim.png)
 
 
 ## Configure Fabric
