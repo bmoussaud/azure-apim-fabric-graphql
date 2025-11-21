@@ -1,0 +1,47 @@
+<policies>
+    <inbound>
+        <base />
+        <set-variable name="deviceId" value="@(context.Request.MatchedParameters["deviceId"])" />
+        <set-body>@{
+            var deviceId = (string)context.Variables["deviceId"];
+            var query = @"query ($deviceId: String!) {
+                factory_iot_datas(
+                    first: 1
+                    filter: { DeviceID: { eq: $deviceId } }
+                ) {
+                    items {
+                                Timestamp
+                                BuildingID     
+                                DeviceID
+                                Location
+                                MetricType
+                                Value
+                                Unit
+                                Status
+                    }
+                }
+            }";
+            
+            var requestBody = new {
+                query = query,
+                variables = new { 
+                    deviceId = deviceId 
+                }
+            };
+            
+            return JsonConvert.SerializeObject(requestBody);
+        }</set-body>
+    </inbound>
+    <!-- Control if and how the requests are forwarded to services  -->
+    <backend>
+        <base />
+    </backend>
+    <!-- Customize the responses -->
+    <outbound>
+        <base />  
+    </outbound>
+    <!-- Handle exceptions and customize error responses  -->
+    <on-error>
+        <base />
+    </on-error>
+</policies>

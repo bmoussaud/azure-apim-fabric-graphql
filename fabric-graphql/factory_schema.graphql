@@ -1,0 +1,392 @@
+"""
+The `@oneOf` directive is used within the type system definition language
+ to indicate:
+
+ - an Input Object is a Oneof Input Object, or
+ - an Object Type's Field is a Oneof Field.
+"""
+directive @oneOf on INPUT_OBJECT
+
+"""
+The purpose of the `cost` directive is to define a `weight` for GraphQL types, fields, and arguments. Static analysis can use these weights when calculating the overall cost of a query or response.
+"""
+directive @cost(
+  """
+  The `weight` argument defines what value to add to the overall cost for every appearance, or possible appearance, of a type, field, argument, etc.
+  """
+  weight: String!
+) on SCALAR | OBJECT | FIELD_DEFINITION | ARGUMENT_DEFINITION | ENUM | INPUT_FIELD_DEFINITION
+
+"""A directive to indicate the primary key field of an item."""
+directive @primaryKey(
+  """The underlying database type."""
+  databaseType: String
+) on FIELD_DEFINITION
+
+"""A directive to indicate the enabled state of a node."""
+directive @isEnabled(
+  """The enabled state of the query or mutation."""
+  enabledValue: Boolean
+) on FIELD_DEFINITION
+
+"""
+A directive to indicate the type maps to a storable entity not a nested entity.
+"""
+directive @model(
+  """Underlying name of the database entity."""
+  name: String
+) on OBJECT | FIELD_DEFINITION
+
+enum OrderBy {
+  ASC
+  DESC
+}
+
+input DefaultValue {
+  Byte: Byte
+  Short: Short
+  Int: Int
+  Long: Long
+  String: String
+  Boolean: Boolean
+  Single: Single
+  Float: Float
+  Decimal: Decimal
+  DateTime: DateTime
+  ByteArray: ByteArray
+  LocalTime: LocalTime
+}
+
+"""Aggregation type for factory_iot_data"""
+type factory_iot_dataAggregations {
+  """Maximum value for numeric fields"""
+  max(
+    """Field to aggregate on"""
+    field: factory_iot_dataNumericAggregateFields!
+
+    """Filter criteria for aggregation"""
+    having: FloatFilterInput
+
+    """Whether to aggregate on distinct values"""
+    distinct: Boolean = false
+  ): Float
+
+  """Minimum value for numeric fields"""
+  min(
+    """Field to aggregate on"""
+    field: factory_iot_dataNumericAggregateFields!
+
+    """Filter criteria for aggregation"""
+    having: FloatFilterInput
+
+    """Whether to aggregate on distinct values"""
+    distinct: Boolean = false
+  ): Float
+
+  """Average value"""
+  avg(
+    """Field to aggregate on"""
+    field: factory_iot_dataNumericAggregateFields!
+
+    """Filter criteria for aggregation"""
+    having: FloatFilterInput
+
+    """Whether to aggregate on distinct values"""
+    distinct: Boolean = false
+  ): Float
+
+  """Sum of values"""
+  sum(
+    """Field to aggregate on"""
+    field: factory_iot_dataNumericAggregateFields!
+
+    """Filter criteria for aggregation"""
+    having: FloatFilterInput
+
+    """Whether to aggregate on distinct values"""
+    distinct: Boolean = false
+  ): Float
+
+  """Count of numeric values"""
+  count(
+    """Field to aggregate on"""
+    field: factory_iot_dataNumericAggregateFields!
+
+    """Filter criteria for aggregation"""
+    having: FloatFilterInput
+
+    """Whether to aggregate on distinct values"""
+    distinct: Boolean = false
+  ): Int
+}
+
+"""GroupBy type for factory_iot_data"""
+type factory_iot_dataGroupBy {
+  """Grouped fields from factory_iot_data"""
+  fields: factory_iot_data
+
+  """Aggregations for factory_iot_data"""
+  aggregations: factory_iot_dataAggregations
+}
+
+type factory_iot_data {
+  Timestamp: DateTime
+  BuildingID: String
+  DeviceID: String
+  Location: String
+  MetricType: String
+  Value: Float
+  Unit: String
+  Status: String
+}
+
+type DbOperationResult {
+  """Contains result for mutation execution"""
+  result: String
+}
+
+"""Fields available for aggregation in factory_iot_data"""
+enum factory_iot_dataNumericAggregateFields {
+  Value
+}
+
+"""Scalar fields available in factory_iot_data"""
+enum factory_iot_dataScalarFields {
+  Timestamp
+  BuildingID
+  DeviceID
+  Location
+  MetricType
+  Value
+  Unit
+  Status
+}
+
+"""Order by input for factory_iot_data GraphQL type"""
+input factory_iot_dataOrderByInput {
+  """Order by options for Timestamp"""
+  Timestamp: OrderBy
+
+  """Order by options for BuildingID"""
+  BuildingID: OrderBy
+
+  """Order by options for DeviceID"""
+  DeviceID: OrderBy
+
+  """Order by options for Location"""
+  Location: OrderBy
+
+  """Order by options for MetricType"""
+  MetricType: OrderBy
+
+  """Order by options for Value"""
+  Value: OrderBy
+
+  """Order by options for Unit"""
+  Unit: OrderBy
+
+  """Order by options for Status"""
+  Status: OrderBy
+}
+
+"""Input type for adding DateTime filters"""
+input DateTimeFilterInput {
+  """Equals"""
+  eq: DateTime
+
+  """Greater Than"""
+  gt: DateTime
+
+  """Greater Than or Equal To"""
+  gte: DateTime
+
+  """Less Than"""
+  lt: DateTime
+
+  """Less Than or Equal To"""
+  lte: DateTime
+
+  """Not Equals"""
+  neq: DateTime
+
+  """Not null test"""
+  isNull: Boolean
+
+  """In"""
+  in: [DateTime]
+}
+
+"""Input type for adding String filters"""
+input StringFilterInput {
+  """Equals"""
+  eq: String
+
+  """Contains"""
+  contains: String
+
+  """Not Contains"""
+  notContains: String
+
+  """Starts With"""
+  startsWith: String
+
+  """Ends With"""
+  endsWith: String
+
+  """Not Equals"""
+  neq: String
+
+  """Not null test"""
+  isNull: Boolean
+
+  """In"""
+  in: [String]
+}
+
+"""Input type for adding Float filters"""
+input FloatFilterInput {
+  """Equals"""
+  eq: Float
+
+  """Greater Than"""
+  gt: Float
+
+  """Greater Than or Equal To"""
+  gte: Float
+
+  """Less Than"""
+  lt: Float
+
+  """Less Than or Equal To"""
+  lte: Float
+
+  """Not Equals"""
+  neq: Float
+
+  """Not null test"""
+  isNull: Boolean
+
+  """In"""
+  in: [Float]
+}
+
+"""Filter input for factory_iot_data GraphQL type"""
+input factory_iot_dataFilterInput {
+  """Filter options for Timestamp"""
+  Timestamp: DateTimeFilterInput
+
+  """Filter options for BuildingID"""
+  BuildingID: StringFilterInput
+
+  """Filter options for DeviceID"""
+  DeviceID: StringFilterInput
+
+  """Filter options for Location"""
+  Location: StringFilterInput
+
+  """Filter options for MetricType"""
+  MetricType: StringFilterInput
+
+  """Filter options for Value"""
+  Value: FloatFilterInput
+
+  """Filter options for Unit"""
+  Unit: StringFilterInput
+
+  """Filter options for Status"""
+  Status: StringFilterInput
+
+  """Conditions to be treated as AND operations"""
+  and: [factory_iot_dataFilterInput]
+
+  """Conditions to be treated as OR operations"""
+  or: [factory_iot_dataFilterInput]
+}
+
+"""
+The return object from a filter query that supports a pagination token for paging through results
+"""
+type factory_iot_dataConnection {
+  """The list of items that matched the filter"""
+  items: [factory_iot_data!]!
+
+  """A pagination token to provide to subsequent pages of a query"""
+  endCursor: String
+
+  """Indicates if there are more pages of items to return"""
+  hasNextPage: Boolean!
+
+  """Group results by specified fields"""
+  groupBy(
+    """Fields to group by"""
+    fields: [factory_iot_dataScalarFields!]
+  ): [factory_iot_dataGroupBy!]!
+}
+
+type Query {
+  """Get a list of all the factory_iot_data items from the database"""
+  factory_iot_datas(
+    """The number of items to return from the page start point"""
+    first: Int
+
+    """
+    A pagination token from a previous query to continue through a paginated list
+    """
+    after: String
+
+    """Filter options for query"""
+    filter: factory_iot_dataFilterInput
+
+    """Ordering options for query"""
+    orderBy: factory_iot_dataOrderByInput
+  ): factory_iot_dataConnection!
+}
+
+"""Defines when a policy shall be executed."""
+enum ApplyPolicy {
+  """Before the resolver was executed."""
+  BEFORE_RESOLVER
+
+  """After the resolver was executed."""
+  AFTER_RESOLVER
+
+  """The policy is applied in the validation step before the execution."""
+  VALIDATION
+}
+
+"""
+The `Byte` scalar type represents non-fractional whole numeric values. Byte can represent values between 0 and 255.
+"""
+scalar Byte
+
+"""
+The `Short` scalar type represents non-fractional signed whole 16-bit numeric values. Short can represent values between -(2^15) and 2^15 - 1.
+"""
+scalar Short
+
+"""
+The `Long` scalar type represents non-fractional signed whole 64-bit numeric values. Long can represent values between -(2^63) and 2^63 - 1.
+"""
+scalar Long
+
+"""IEEE 754 32 bit float"""
+scalar Single
+
+"""The `Decimal` scalar type represents a decimal floating-point number."""
+scalar Decimal
+
+"""The `DateTime` scalar represents an ISO-8601 compliant date time type."""
+scalar DateTime
+
+scalar ByteArray
+
+"""
+LocalTime represents a time of day, with no reference to a particular calendar, time zone, or date.
+
+Allowed patterns:
+- `hh:mm:ss.sssssssss`
+
+Examples:
+- `20:00:00.999`
+"""
+scalar LocalTime

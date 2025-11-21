@@ -1,0 +1,1501 @@
+Timestamp,BuildingID,DeviceID,Location,MetricType,Value,Unit,Status
+2025-11-11 17:36:24.407284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.53,kW,OK
+2025-11-11 17:37:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,4.24,A,OK
+2025-11-11 17:39:17.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 17:40:43.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,Warning
+2025-11-11 17:42:10.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.3,C,OK
+2025-11-11 17:43:36.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 17:45:02.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.22,kW,OK
+2025-11-11 17:46:29.207284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.68,kW,OK
+2025-11-11 17:47:55.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,4.93,A,OK
+2025-11-11 17:49:22.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.1,C,OK
+2025-11-11 17:50:48.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.41,kW,OK
+2025-11-11 17:52:14.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,11.18,A,OK
+2025-11-11 17:53:41.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 17:55:07.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-11 17:56:34.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 17:58:00.407284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,7.41,A,OK
+2025-11-11 17:59:26.807284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.7,C,OK
+2025-11-11 18:00:53.207284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.18,kW,OK
+2025-11-11 18:02:19.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 18:03:46.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.65,kW,OK
+2025-11-11 18:05:12.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.93,A,OK
+2025-11-11 18:06:38.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,2.89,A,OK
+2025-11-11 18:08:05.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.05,kW,OK
+2025-11-11 18:09:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,8.15,A,Warning
+2025-11-11 18:10:58.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 18:12:24.407284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,6.29,A,OK
+2025-11-11 18:13:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.71,kW,OK
+2025-11-11 18:15:17.207284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.87,kW,OK
+2025-11-11 18:16:43.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.0,C,OK
+2025-11-11 18:18:10.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,6.01,A,OK
+2025-11-11 18:19:36.407284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,3.27,A,OK
+2025-11-11 18:21:02.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,1.02,A,OK
+2025-11-11 18:22:29.207284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,5.28,A,OK
+2025-11-11 18:23:55.607284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.35,A,OK
+2025-11-11 18:25:22.007284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,2.71,A,OK
+2025-11-11 18:26:48.407284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 18:28:14.807284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-11 18:29:41.207284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.34,kW,OK
+2025-11-11 18:31:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,5.08,A,OK
+2025-11-11 18:32:34.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.9,C,OK
+2025-11-11 18:34:00.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 18:35:26.807284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,5.31,A,OK
+2025-11-11 18:36:53.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-11 18:38:19.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.1,kW,OK
+2025-11-11 18:39:46.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.86,kW,OK
+2025-11-11 18:41:12.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.2,C,OK
+2025-11-11 18:42:38.807284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 18:44:05.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.6,C,OK
+2025-11-11 18:45:31.607284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.89,kW,OK
+2025-11-11 18:46:58.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,6.55,A,OK
+2025-11-11 18:48:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 18:49:50.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.14,kW,OK
+2025-11-11 18:51:17.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,3.98,kW,OK
+2025-11-11 18:52:43.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,13.12,A,OK
+2025-11-11 18:54:10.007284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,6.95,A,OK
+2025-11-11 18:55:36.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.58,kW,OK
+2025-11-11 18:57:02.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.6,C,OK
+2025-11-11 18:58:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.7,C,OK
+2025-11-11 18:59:55.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:01:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-11 19:02:48.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:04:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:05:41.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,13.84,A,OK
+2025-11-11 19:07:07.607284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.9,kW,OK
+2025-11-11 19:08:34.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,6.72,A,OK
+2025-11-11 19:10:00.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.0,C,OK
+2025-11-11 19:11:26.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,5.15,A,OK
+2025-11-11 19:12:53.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:14:19.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.5,C,OK
+2025-11-11 19:15:46.007284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,2.49,A,OK
+2025-11-11 19:17:12.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-11 19:18:38.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.9,C,OK
+2025-11-11 19:20:05.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.6,C,Error
+2025-11-11 19:21:31.607284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.91,kW,OK
+2025-11-11 19:22:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.4,C,OK
+2025-11-11 19:24:24.407284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.36,kW,OK
+2025-11-11 19:25:50.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,14.97,A,Error
+2025-11-11 19:27:17.207284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,2.41,kW,OK
+2025-11-11 19:28:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:30:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:31:36.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.9,C,OK
+2025-11-11 19:33:02.807284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,6.77,A,OK
+2025-11-11 19:34:29.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 19:35:55.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,10.16,A,OK
+2025-11-11 19:37:22.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,10.13,A,OK
+2025-11-11 19:38:48.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,8.73,A,OK
+2025-11-11 19:40:14.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.21,kW,OK
+2025-11-11 19:41:41.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.06,kW,OK
+2025-11-11 19:43:07.607284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.79,kW,OK
+2025-11-11 19:44:34.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,3.23,A,OK
+2025-11-11 19:46:00.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.72,kW,OK
+2025-11-11 19:47:26.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.6,C,OK
+2025-11-11 19:48:53.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,11.83,A,OK
+2025-11-11 19:50:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.88,kW,OK
+2025-11-11 19:51:46.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:53:12.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.4,C,OK
+2025-11-11 19:54:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,8.63,A,Error
+2025-11-11 19:56:05.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.58,kW,OK
+2025-11-11 19:57:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 19:58:58.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.0,C,OK
+2025-11-11 20:00:24.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.3,C,OK
+2025-11-11 20:01:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.43,kW,OK
+2025-11-11 20:03:17.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 20:04:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 20:06:10.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.7,C,OK
+2025-11-11 20:07:36.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.85,A,OK
+2025-11-11 20:09:02.807284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.17,A,OK
+2025-11-11 20:10:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.8,C,OK
+2025-11-11 20:11:55.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.6,C,OK
+2025-11-11 20:13:22.007284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,9.02,A,OK
+2025-11-11 20:14:48.407284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.39,kW,OK
+2025-11-11 20:16:14.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.0,C,OK
+2025-11-11 20:17:41.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,9.92,A,OK
+2025-11-11 20:19:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 20:20:34.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.79,kW,OK
+2025-11-11 20:22:00.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,4.33,A,OK
+2025-11-11 20:23:26.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.4,kW,OK
+2025-11-11 20:24:53.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.0,C,OK
+2025-11-11 20:26:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.98,kW,OK
+2025-11-11 20:27:46.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.66,kW,OK
+2025-11-11 20:29:12.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.8,C,OK
+2025-11-11 20:30:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.94,kW,OK
+2025-11-11 20:32:05.207284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,4.81,A,OK
+2025-11-11 20:33:31.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.9,C,OK
+2025-11-11 20:34:58.007284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,4.83,A,OK
+2025-11-11 20:36:24.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.6,C,OK
+2025-11-11 20:37:50.807284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,12.89,A,OK
+2025-11-11 20:39:17.207284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.6,C,OK
+2025-11-11 20:40:43.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.0,C,OK
+2025-11-11 20:42:10.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.2,C,OK
+2025-11-11 20:43:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.4,kW,OK
+2025-11-11 20:45:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-11 20:46:29.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 20:47:55.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.8,kW,OK
+2025-11-11 20:49:22.007284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.36,kW,OK
+2025-11-11 20:50:48.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 20:52:14.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,0.69,kW,OK
+2025-11-11 20:53:41.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.74,kW,OK
+2025-11-11 20:55:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 20:56:34.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,7.62,A,OK
+2025-11-11 20:58:00.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.92,kW,OK
+2025-11-11 20:59:26.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,4.54,A,OK
+2025-11-11 21:00:53.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,8.06,A,OK
+2025-11-11 21:02:19.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 21:03:46.007284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.77,kW,OK
+2025-11-11 21:05:12.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.3,C,OK
+2025-11-11 21:06:38.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-11 21:08:05.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.79,kW,OK
+2025-11-11 21:09:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,14.2,A,OK
+2025-11-11 21:10:58.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.1,C,OK
+2025-11-11 21:12:24.407284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,12.78,A,OK
+2025-11-11 21:13:50.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.1,C,OK
+2025-11-11 21:15:17.207284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,14.37,A,OK
+2025-11-11 21:16:43.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 21:18:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 21:19:36.407284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,5.85,A,OK
+2025-11-11 21:21:02.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.7,C,OK
+2025-11-11 21:22:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.8,C,OK
+2025-11-11 21:23:55.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.8,C,OK
+2025-11-11 21:25:22.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,12.74,A,OK
+2025-11-11 21:26:48.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,10.01,A,OK
+2025-11-11 21:28:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,3.22,A,OK
+2025-11-11 21:29:41.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,5.0,kW,OK
+2025-11-11 21:31:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 21:32:34.007284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,8.17,A,OK
+2025-11-11 21:34:00.407284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,9.53,A,OK
+2025-11-11 21:35:26.807284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,9.16,A,OK
+2025-11-11 21:36:53.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,1.7,A,Warning
+2025-11-11 21:38:19.607284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.68,kW,OK
+2025-11-11 21:39:46.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,11.9,A,OK
+2025-11-11 21:41:12.407284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,Error
+2025-11-11 21:42:38.807284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.7,C,OK
+2025-11-11 21:44:05.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,11.24,A,OK
+2025-11-11 21:45:31.607284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-11 21:46:58.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,14.04,A,OK
+2025-11-11 21:48:24.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.8,C,OK
+2025-11-11 21:49:50.807284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.76,kW,OK
+2025-11-11 21:51:17.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,12.43,A,OK
+2025-11-11 21:52:43.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-11 21:54:10.007284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 21:55:36.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.7,C,OK
+2025-11-11 21:57:02.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,1.3,A,OK
+2025-11-11 21:58:29.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.6,C,OK
+2025-11-11 21:59:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 22:01:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 22:02:48.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.8,C,OK
+2025-11-11 22:04:14.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,3.27,A,OK
+2025-11-11 22:05:41.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.95,kW,OK
+2025-11-11 22:07:07.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.1,C,OK
+2025-11-11 22:08:34.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.0,C,OK
+2025-11-11 22:10:00.407284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,4.71,A,OK
+2025-11-11 22:11:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.5,C,OK
+2025-11-11 22:12:53.207284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.35,kW,OK
+2025-11-11 22:14:19.607284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.11,kW,OK
+2025-11-11 22:15:46.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.0,C,OK
+2025-11-11 22:17:12.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.31,kW,OK
+2025-11-11 22:18:38.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.3,C,OK
+2025-11-11 22:20:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 22:21:31.607284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.47,kW,OK
+2025-11-11 22:22:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.09,kW,OK
+2025-11-11 22:24:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 22:25:50.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,7.41,A,OK
+2025-11-11 22:27:17.207284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,5.2,A,OK
+2025-11-11 22:28:43.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.29,kW,OK
+2025-11-11 22:30:10.007284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.79,kW,OK
+2025-11-11 22:31:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.98,kW,OK
+2025-11-11 22:33:02.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-11 22:34:29.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.4,C,OK
+2025-11-11 22:35:55.607284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.54,kW,OK
+2025-11-11 22:37:22.007284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,8.76,A,OK
+2025-11-11 22:38:48.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.6,C,Warning
+2025-11-11 22:40:14.807284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,6.49,A,OK
+2025-11-11 22:41:41.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,4.71,A,OK
+2025-11-11 22:43:07.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.24,kW,OK
+2025-11-11 22:44:34.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 22:46:00.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 22:47:26.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 22:48:53.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.9,C,OK
+2025-11-11 22:50:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.87,kW,OK
+2025-11-11 22:51:46.007284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,13.14,A,OK
+2025-11-11 22:53:12.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,10.3,A,OK
+2025-11-11 22:54:38.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.98,kW,OK
+2025-11-11 22:56:05.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.0,C,OK
+2025-11-11 22:57:31.607284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,8.5,A,OK
+2025-11-11 22:58:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.81,kW,OK
+2025-11-11 23:00:24.407284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.0,kW,OK
+2025-11-11 23:01:50.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.39,A,OK
+2025-11-11 23:03:17.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,6.54,A,OK
+2025-11-11 23:04:43.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 23:06:10.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.2,kW,OK
+2025-11-11 23:07:36.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.6,C,OK
+2025-11-11 23:09:02.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,7.5,A,OK
+2025-11-11 23:10:29.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.44,kW,OK
+2025-11-11 23:11:55.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.55,kW,OK
+2025-11-11 23:13:22.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,9.56,A,OK
+2025-11-11 23:14:48.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.5,C,OK
+2025-11-11 23:16:14.807284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.68,kW,OK
+2025-11-11 23:17:41.207284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.88,kW,OK
+2025-11-11 23:19:07.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-11 23:20:34.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.8,C,OK
+2025-11-11 23:22:00.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 23:23:26.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.57,kW,OK
+2025-11-11 23:24:53.207284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,12.35,A,OK
+2025-11-11 23:26:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.61,kW,OK
+2025-11-11 23:27:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 23:29:12.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.6,C,OK
+2025-11-11 23:30:38.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.0,C,OK
+2025-11-11 23:32:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 23:33:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,Error
+2025-11-11 23:34:58.007284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-11 23:36:24.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.75,kW,OK
+2025-11-11 23:37:50.807284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,13.28,A,OK
+2025-11-11 23:39:17.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 23:40:43.607284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.0,C,OK
+2025-11-11 23:42:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 23:43:36.407284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,0.74,kW,OK
+2025-11-11 23:45:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 23:46:29.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-11 23:47:55.607284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,14.2,A,Error
+2025-11-11 23:49:22.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,8.7,A,OK
+2025-11-11 23:50:48.407284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,12.67,A,OK
+2025-11-11 23:52:14.807284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,9.49,A,OK
+2025-11-11 23:53:41.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,9.67,A,OK
+2025-11-11 23:55:07.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.3,C,OK
+2025-11-11 23:56:34.007284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,0.85,kW,OK
+2025-11-11 23:58:00.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-11 23:59:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.7,C,OK
+2025-11-12 00:00:53.207284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.53,kW,OK
+2025-11-12 00:02:19.607284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.9,C,OK
+2025-11-12 00:03:46.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,14.01,A,OK
+2025-11-12 00:05:12.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.2,C,OK
+2025-11-12 00:06:38.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 00:08:05.207284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.1,C,OK
+2025-11-12 00:09:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.78,kW,OK
+2025-11-12 00:10:58.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.1,C,OK
+2025-11-12 00:12:24.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,1.41,A,OK
+2025-11-12 00:13:50.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 00:15:17.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 00:16:43.607284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,5.2,A,Warning
+2025-11-12 00:18:10.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.0,kW,OK
+2025-11-12 00:19:36.407284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,11.94,A,OK
+2025-11-12 00:21:02.807284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.12,kW,OK
+2025-11-12 00:22:29.207284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.68,A,OK
+2025-11-12 00:23:55.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.7,C,OK
+2025-11-12 00:25:22.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.87,kW,OK
+2025-11-12 00:26:48.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 00:28:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.48,kW,OK
+2025-11-12 00:29:41.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 00:31:07.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.45,kW,OK
+2025-11-12 00:32:34.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 00:34:00.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.9,C,OK
+2025-11-12 00:35:26.807284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,5.15,A,OK
+2025-11-12 00:36:53.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.7,kW,OK
+2025-11-12 00:38:19.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.7,C,OK
+2025-11-12 00:39:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 00:41:12.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 00:42:38.807284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.9,C,OK
+2025-11-12 00:44:05.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.88,kW,OK
+2025-11-12 00:45:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,5.79,A,OK
+2025-11-12 00:46:58.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,Warning
+2025-11-12 00:48:24.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 00:49:50.807284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.84,kW,OK
+2025-11-12 00:51:17.207284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 00:52:43.607284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.42,A,OK
+2025-11-12 00:54:10.007284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,11.11,A,OK
+2025-11-12 00:55:36.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.7,C,OK
+2025-11-12 00:57:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 00:58:29.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.84,kW,OK
+2025-11-12 00:59:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 01:01:22.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,0.57,kW,OK
+2025-11-12 01:02:48.407284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,14.47,A,OK
+2025-11-12 01:04:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 01:05:41.207284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.75,kW,OK
+2025-11-12 01:07:07.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 01:08:34.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,3.2,A,Error
+2025-11-12 01:10:00.407284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,7.87,A,OK
+2025-11-12 01:11:26.807284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,3.81,kW,OK
+2025-11-12 01:12:53.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.0,C,OK
+2025-11-12 01:14:19.607284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 01:15:46.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,1.43,A,OK
+2025-11-12 01:17:12.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.85,kW,OK
+2025-11-12 01:18:38.807284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,2.19,A,OK
+2025-11-12 01:20:05.207284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,13.44,A,Error
+2025-11-12 01:21:31.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 01:22:58.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.9,C,OK
+2025-11-12 01:24:24.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.52,kW,OK
+2025-11-12 01:25:50.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.58,kW,OK
+2025-11-12 01:27:17.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.92,kW,OK
+2025-11-12 01:28:43.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,14.27,A,OK
+2025-11-12 01:30:10.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.4,C,OK
+2025-11-12 01:31:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,12.0,A,OK
+2025-11-12 01:33:02.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.4,C,OK
+2025-11-12 01:34:29.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.98,kW,OK
+2025-11-12 01:35:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 01:37:22.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.29,kW,OK
+2025-11-12 01:38:48.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,Error
+2025-11-12 01:40:14.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.88,kW,OK
+2025-11-12 01:41:41.207284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.0,C,OK
+2025-11-12 01:43:07.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.81,kW,Warning
+2025-11-12 01:44:34.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.1,C,OK
+2025-11-12 01:46:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.3,C,OK
+2025-11-12 01:47:26.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 01:48:53.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,12.65,A,OK
+2025-11-12 01:50:19.607284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.6,C,OK
+2025-11-12 01:51:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,Warning
+2025-11-12 01:53:12.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 01:54:38.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.8,C,OK
+2025-11-12 01:56:05.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.3,C,OK
+2025-11-12 01:57:31.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.71,kW,OK
+2025-11-12 01:58:58.007284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,11.2,A,OK
+2025-11-12 02:00:24.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.8,C,OK
+2025-11-12 02:01:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.23,kW,OK
+2025-11-12 02:03:17.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.9,C,OK
+2025-11-12 02:04:43.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.86,kW,OK
+2025-11-12 02:06:10.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.5,C,OK
+2025-11-12 02:07:36.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.1,C,OK
+2025-11-12 02:09:02.807284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,9.36,A,OK
+2025-11-12 02:10:29.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.7,C,Error
+2025-11-12 02:11:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 02:13:22.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.2,C,OK
+2025-11-12 02:14:48.407284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.34,kW,OK
+2025-11-12 02:16:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 02:17:41.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 02:19:07.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.0,C,OK
+2025-11-12 02:20:34.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 02:22:00.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.2,C,OK
+2025-11-12 02:23:26.807284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,0.82,kW,OK
+2025-11-12 02:24:53.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 02:26:19.607284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.4,C,OK
+2025-11-12 02:27:46.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.42,kW,OK
+2025-11-12 02:29:12.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.8,kW,OK
+2025-11-12 02:30:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,4.21,A,OK
+2025-11-12 02:32:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,2.53,kW,OK
+2025-11-12 02:33:31.607284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.4,C,OK
+2025-11-12 02:34:58.007284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,14.31,A,OK
+2025-11-12 02:36:24.407284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,4.56,A,OK
+2025-11-12 02:37:50.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.1,C,OK
+2025-11-12 02:39:17.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.78,kW,OK
+2025-11-12 02:40:43.607284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,9.15,A,OK
+2025-11-12 02:42:10.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 02:43:36.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.37,kW,OK
+2025-11-12 02:45:02.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,14.71,A,OK
+2025-11-12 02:46:29.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.65,kW,OK
+2025-11-12 02:47:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 02:49:22.007284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,2.56,A,OK
+2025-11-12 02:50:48.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 02:52:14.807284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.81,kW,OK
+2025-11-12 02:53:41.207284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,8.43,A,OK
+2025-11-12 02:55:07.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,2.99,kW,OK
+2025-11-12 02:56:34.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.3,C,OK
+2025-11-12 02:58:00.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 02:59:26.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,2.3,A,OK
+2025-11-12 03:00:53.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,9.73,A,OK
+2025-11-12 03:02:19.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.4,C,Error
+2025-11-12 03:03:46.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.6,C,OK
+2025-11-12 03:05:12.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 03:06:38.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,6.05,A,OK
+2025-11-12 03:08:05.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.3,C,OK
+2025-11-12 03:09:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,5.66,A,OK
+2025-11-12 03:10:58.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.1,C,OK
+2025-11-12 03:12:24.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.67,kW,OK
+2025-11-12 03:13:50.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.0,C,OK
+2025-11-12 03:15:17.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 03:16:43.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,0.58,kW,OK
+2025-11-12 03:18:10.007284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.09,kW,OK
+2025-11-12 03:19:36.407284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,2.67,A,OK
+2025-11-12 03:21:02.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,7.69,A,OK
+2025-11-12 03:22:29.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.61,kW,OK
+2025-11-12 03:23:55.607284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,7.72,A,OK
+2025-11-12 03:25:22.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.0,C,OK
+2025-11-12 03:26:48.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.7,C,OK
+2025-11-12 03:28:14.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,13.73,A,OK
+2025-11-12 03:29:41.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.62,kW,OK
+2025-11-12 03:31:07.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.12,kW,OK
+2025-11-12 03:32:34.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.7,C,OK
+2025-11-12 03:34:00.407284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.99,kW,OK
+2025-11-12 03:35:26.807284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,13.07,A,OK
+2025-11-12 03:36:53.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.87,kW,OK
+2025-11-12 03:38:19.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 03:39:46.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.6,C,OK
+2025-11-12 03:41:12.407284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.09,kW,OK
+2025-11-12 03:42:38.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.9,C,OK
+2025-11-12 03:44:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 03:45:31.607284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.21,kW,OK
+2025-11-12 03:46:58.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.7,kW,OK
+2025-11-12 03:48:24.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,13.31,A,OK
+2025-11-12 03:49:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.11,kW,OK
+2025-11-12 03:51:17.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.9,C,OK
+2025-11-12 03:52:43.607284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,3.47,A,OK
+2025-11-12 03:54:10.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 03:55:36.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 03:57:02.807284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,14.17,A,OK
+2025-11-12 03:58:29.207284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,4.55,A,OK
+2025-11-12 03:59:55.607284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.8,kW,OK
+2025-11-12 04:01:22.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.63,kW,OK
+2025-11-12 04:02:48.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.2,kW,OK
+2025-11-12 04:04:14.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.4,C,OK
+2025-11-12 04:05:41.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 04:07:07.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.92,kW,OK
+2025-11-12 04:08:34.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.6,C,OK
+2025-11-12 04:10:00.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.3,C,OK
+2025-11-12 04:11:26.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 04:12:53.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.91,kW,OK
+2025-11-12 04:14:19.607284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.3,C,OK
+2025-11-12 04:15:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 04:17:12.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,7.38,A,OK
+2025-11-12 04:18:38.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.8,C,OK
+2025-11-12 04:20:05.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.4,C,OK
+2025-11-12 04:21:31.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 04:22:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 04:24:24.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.4,C,OK
+2025-11-12 04:25:50.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.2,C,OK
+2025-11-12 04:27:17.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 04:28:43.607284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.9,C,OK
+2025-11-12 04:30:10.007284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,4.9,A,OK
+2025-11-12 04:31:36.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.2,C,OK
+2025-11-12 04:33:02.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.3,C,OK
+2025-11-12 04:34:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.7,C,OK
+2025-11-12 04:35:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 04:37:22.007284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.04,kW,OK
+2025-11-12 04:38:48.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.9,C,OK
+2025-11-12 04:40:14.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 04:41:41.207284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 04:43:07.607284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.4,C,OK
+2025-11-12 04:44:34.007284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.74,kW,OK
+2025-11-12 04:46:00.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.8,C,OK
+2025-11-12 04:47:26.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,13.76,A,OK
+2025-11-12 04:48:53.207284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.71,kW,OK
+2025-11-12 04:50:19.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 04:51:46.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.0,C,OK
+2025-11-12 04:53:12.407284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,3.11,A,OK
+2025-11-12 04:54:38.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.8,C,OK
+2025-11-12 04:56:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,14.33,A,OK
+2025-11-12 04:57:31.607284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,9.19,A,OK
+2025-11-12 04:58:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.18,kW,OK
+2025-11-12 05:00:24.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,11.64,A,OK
+2025-11-12 05:01:50.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,5.6,A,OK
+2025-11-12 05:03:17.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,9.56,A,OK
+2025-11-12 05:04:43.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.6,C,OK
+2025-11-12 05:06:10.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,4.17,A,OK
+2025-11-12 05:07:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.91,kW,OK
+2025-11-12 05:09:02.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,9.22,A,OK
+2025-11-12 05:10:29.207284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,1.28,A,OK
+2025-11-12 05:11:55.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 05:13:22.007284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,13.22,A,OK
+2025-11-12 05:14:48.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.83,kW,OK
+2025-11-12 05:16:14.807284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.57,kW,OK
+2025-11-12 05:17:41.207284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,13.7,A,OK
+2025-11-12 05:19:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,11.74,A,OK
+2025-11-12 05:20:34.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 05:22:00.407284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,8.17,A,OK
+2025-11-12 05:23:26.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.8,C,OK
+2025-11-12 05:24:53.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.1,C,OK
+2025-11-12 05:26:19.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,2.95,A,OK
+2025-11-12 05:27:46.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,2.94,A,OK
+2025-11-12 05:29:12.407284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 05:30:38.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,1.31,A,OK
+2025-11-12 05:32:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 05:33:31.607284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,14.78,A,OK
+2025-11-12 05:34:58.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 05:36:24.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,2.28,kW,OK
+2025-11-12 05:37:50.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.5,C,OK
+2025-11-12 05:39:17.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,13.29,A,OK
+2025-11-12 05:40:43.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,10.42,A,OK
+2025-11-12 05:42:10.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.26,kW,OK
+2025-11-12 05:43:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.57,kW,OK
+2025-11-12 05:45:02.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,10.77,A,OK
+2025-11-12 05:46:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.3,C,OK
+2025-11-12 05:47:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 05:49:22.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.9,C,OK
+2025-11-12 05:50:48.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.52,kW,OK
+2025-11-12 05:52:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,8.17,A,OK
+2025-11-12 05:53:41.207284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.7,C,OK
+2025-11-12 05:55:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.13,kW,OK
+2025-11-12 05:56:34.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 05:58:00.407284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,3.9,A,OK
+2025-11-12 05:59:26.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:00:53.207284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.11,kW,OK
+2025-11-12 06:02:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.2,C,OK
+2025-11-12 06:03:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:05:12.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.04,kW,OK
+2025-11-12 06:06:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.97,kW,OK
+2025-11-12 06:08:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:09:31.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.7,C,OK
+2025-11-12 06:10:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.2,kW,OK
+2025-11-12 06:12:24.407284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,3.46,A,OK
+2025-11-12 06:13:50.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.0,C,OK
+2025-11-12 06:15:17.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,14.72,A,OK
+2025-11-12 06:16:43.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:18:10.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.4,C,OK
+2025-11-12 06:19:36.407284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,8.84,A,OK
+2025-11-12 06:21:02.807284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,5.59,A,OK
+2025-11-12 06:22:29.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:23:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:25:22.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,6.61,A,OK
+2025-11-12 06:26:48.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,9.8,A,OK
+2025-11-12 06:28:14.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.0,C,OK
+2025-11-12 06:29:41.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.1,C,OK
+2025-11-12 06:31:07.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,2.54,kW,OK
+2025-11-12 06:32:34.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.3,C,OK
+2025-11-12 06:34:00.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,11.09,A,OK
+2025-11-12 06:35:26.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.8,C,OK
+2025-11-12 06:36:53.207284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.12,kW,OK
+2025-11-12 06:38:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.7,C,OK
+2025-11-12 06:39:46.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.93,kW,OK
+2025-11-12 06:41:12.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,11.55,A,OK
+2025-11-12 06:42:38.807284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.92,kW,OK
+2025-11-12 06:44:05.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.52,kW,OK
+2025-11-12 06:45:31.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,8.76,A,OK
+2025-11-12 06:46:58.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.42,kW,OK
+2025-11-12 06:48:24.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.2,C,OK
+2025-11-12 06:49:50.807284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.02,kW,OK
+2025-11-12 06:51:17.207284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.36,kW,OK
+2025-11-12 06:52:43.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:54:10.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.0,C,OK
+2025-11-12 06:55:36.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 06:57:02.807284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.01,kW,OK
+2025-11-12 06:58:29.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,4.89,A,OK
+2025-11-12 06:59:55.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,6.52,A,OK
+2025-11-12 07:01:22.007284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 07:02:48.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 07:04:14.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.7,C,OK
+2025-11-12 07:05:41.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.3,C,OK
+2025-11-12 07:07:07.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 07:08:34.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.81,kW,OK
+2025-11-12 07:10:00.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 07:11:26.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.2,C,OK
+2025-11-12 07:12:53.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,0.81,kW,OK
+2025-11-12 07:14:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,6.3,A,OK
+2025-11-12 07:15:46.007284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.92,kW,OK
+2025-11-12 07:17:12.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.32,kW,OK
+2025-11-12 07:18:38.807284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,2.89,kW,OK
+2025-11-12 07:20:05.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.2,C,OK
+2025-11-12 07:21:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.9,C,OK
+2025-11-12 07:22:58.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.41,kW,OK
+2025-11-12 07:24:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 07:25:50.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 07:27:17.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,5.9,A,OK
+2025-11-12 07:28:43.607284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.57,kW,OK
+2025-11-12 07:30:10.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,Warning
+2025-11-12 07:31:36.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 07:33:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 07:34:29.207284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.89,kW,OK
+2025-11-12 07:35:55.607284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.2,C,OK
+2025-11-12 07:37:22.007284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.24,kW,OK
+2025-11-12 07:38:48.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,13.83,A,OK
+2025-11-12 07:40:14.807284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.2,C,OK
+2025-11-12 07:41:41.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 07:43:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,6.1,A,OK
+2025-11-12 07:44:34.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.17,kW,OK
+2025-11-12 07:46:00.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,2.25,A,OK
+2025-11-12 07:47:26.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.43,kW,OK
+2025-11-12 07:48:53.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.71,kW,OK
+2025-11-12 07:50:19.607284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,4.19,A,OK
+2025-11-12 07:51:46.007284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,6.62,A,OK
+2025-11-12 07:53:12.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,2.41,kW,OK
+2025-11-12 07:54:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.83,kW,OK
+2025-11-12 07:56:05.207284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.49,kW,OK
+2025-11-12 07:57:31.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,3.38,kW,Error
+2025-11-12 07:58:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.2,C,OK
+2025-11-12 08:00:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:01:50.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.7,C,OK
+2025-11-12 08:03:17.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,5.49,A,Error
+2025-11-12 08:04:43.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:06:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:07:36.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.3,C,OK
+2025-11-12 08:09:02.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:10:29.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,3.07,A,OK
+2025-11-12 08:11:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:13:22.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.94,kW,OK
+2025-11-12 08:14:48.407284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,1.87,A,OK
+2025-11-12 08:16:14.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.81,kW,OK
+2025-11-12 08:17:41.207284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.0,C,OK
+2025-11-12 08:19:07.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,6.08,A,OK
+2025-11-12 08:20:34.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.7,C,OK
+2025-11-12 08:22:00.407284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.0,kW,OK
+2025-11-12 08:23:26.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,8.98,A,OK
+2025-11-12 08:24:53.207284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.3,kW,OK
+2025-11-12 08:26:19.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:27:46.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,0.91,kW,OK
+2025-11-12 08:29:12.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,2.95,A,OK
+2025-11-12 08:30:38.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.74,kW,OK
+2025-11-12 08:32:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:33:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.6,C,OK
+2025-11-12 08:34:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.2,C,OK
+2025-11-12 08:36:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:37:50.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:39:17.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,6.13,A,OK
+2025-11-12 08:40:43.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.21,kW,OK
+2025-11-12 08:42:10.007284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:43:36.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.5,C,OK
+2025-11-12 08:45:02.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.4,C,OK
+2025-11-12 08:46:29.207284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.8,C,OK
+2025-11-12 08:47:55.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.8,C,OK
+2025-11-12 08:49:22.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.4,C,OK
+2025-11-12 08:50:48.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:52:14.807284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.38,kW,OK
+2025-11-12 08:53:41.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,13.72,A,OK
+2025-11-12 08:55:07.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 08:56:34.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,0.74,kW,OK
+2025-11-12 08:58:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.9,C,OK
+2025-11-12 08:59:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.7,C,OK
+2025-11-12 09:00:53.207284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.4,C,OK
+2025-11-12 09:02:19.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 09:03:46.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.5,C,OK
+2025-11-12 09:05:12.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:06:38.807284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,5.63,A,OK
+2025-11-12 09:08:05.207284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.19,kW,OK
+2025-11-12 09:09:31.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:10:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:12:24.407284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,13.45,A,OK
+2025-11-12 09:13:50.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,9.62,A,OK
+2025-11-12 09:15:17.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.2,C,OK
+2025-11-12 09:16:43.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.5,C,OK
+2025-11-12 09:18:10.007284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:19:36.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.7,C,OK
+2025-11-12 09:21:02.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.5,C,OK
+2025-11-12 09:22:29.207284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:23:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 09:25:22.007284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.88,kW,OK
+2025-11-12 09:26:48.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,14.55,A,OK
+2025-11-12 09:28:14.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.0,C,OK
+2025-11-12 09:29:41.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,0.96,kW,OK
+2025-11-12 09:31:07.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,7.5,A,OK
+2025-11-12 09:32:34.007284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,6.68,A,OK
+2025-11-12 09:34:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.0,C,OK
+2025-11-12 09:35:26.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 09:36:53.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.79,kW,OK
+2025-11-12 09:38:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.0,C,OK
+2025-11-12 09:39:46.007284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.87,kW,OK
+2025-11-12 09:41:12.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,13.91,A,OK
+2025-11-12 09:42:38.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:44:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,8.27,A,OK
+2025-11-12 09:45:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:46:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 09:48:24.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.3,C,OK
+2025-11-12 09:49:50.807284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,13.92,A,OK
+2025-11-12 09:51:17.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.43,kW,OK
+2025-11-12 09:52:43.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.34,kW,OK
+2025-11-12 09:54:10.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 09:55:36.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 09:57:02.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,10.39,A,OK
+2025-11-12 09:58:29.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 09:59:55.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.4,C,OK
+2025-11-12 10:01:22.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.5,C,OK
+2025-11-12 10:02:48.407284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.32,kW,OK
+2025-11-12 10:04:14.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,7.14,A,OK
+2025-11-12 10:05:41.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 10:07:07.607284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,7.39,A,OK
+2025-11-12 10:08:34.007284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,8.2,A,OK
+2025-11-12 10:10:00.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,12.32,A,OK
+2025-11-12 10:11:26.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.75,kW,OK
+2025-11-12 10:12:53.207284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,12.86,A,OK
+2025-11-12 10:14:19.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.46,kW,OK
+2025-11-12 10:15:46.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.58,kW,OK
+2025-11-12 10:17:12.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.4,kW,OK
+2025-11-12 10:18:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,12.02,A,OK
+2025-11-12 10:20:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.2,kW,OK
+2025-11-12 10:21:31.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.3,C,OK
+2025-11-12 10:22:58.007284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.97,kW,OK
+2025-11-12 10:24:24.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,13.01,A,OK
+2025-11-12 10:25:50.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.3,C,OK
+2025-11-12 10:27:17.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 10:28:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 10:30:10.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.8,C,OK
+2025-11-12 10:31:36.407284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,6.09,A,OK
+2025-11-12 10:33:02.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.4,C,OK
+2025-11-12 10:34:29.207284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.89,kW,OK
+2025-11-12 10:35:55.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.58,kW,OK
+2025-11-12 10:37:22.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.2,C,OK
+2025-11-12 10:38:48.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.06,kW,OK
+2025-11-12 10:40:14.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 10:41:41.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.2,C,OK
+2025-11-12 10:43:07.607284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 10:44:34.007284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,14.63,A,OK
+2025-11-12 10:46:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.4,C,OK
+2025-11-12 10:47:26.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.4,C,OK
+2025-11-12 10:48:53.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.47,kW,OK
+2025-11-12 10:50:19.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.7,C,OK
+2025-11-12 10:51:46.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.2,C,OK
+2025-11-12 10:53:12.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,8.03,A,OK
+2025-11-12 10:54:38.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 10:56:05.207284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.5,C,Warning
+2025-11-12 10:57:31.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,7.95,A,OK
+2025-11-12 10:58:58.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.83,kW,OK
+2025-11-12 11:00:24.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,Error
+2025-11-12 11:01:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.22,kW,OK
+2025-11-12 11:03:17.207284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.3,C,OK
+2025-11-12 11:04:43.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 11:06:10.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.9,C,OK
+2025-11-12 11:07:36.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,Warning
+2025-11-12 11:09:02.807284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,7.61,A,OK
+2025-11-12 11:10:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.9,C,OK
+2025-11-12 11:11:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 11:13:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 11:14:48.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.0,C,OK
+2025-11-12 11:16:14.807284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.83,kW,OK
+2025-11-12 11:17:41.207284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.24,kW,OK
+2025-11-12 11:19:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 11:20:34.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.72,kW,OK
+2025-11-12 11:22:00.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,3.78,A,OK
+2025-11-12 11:23:26.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.0,C,OK
+2025-11-12 11:24:53.207284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,10.44,A,OK
+2025-11-12 11:26:19.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,14.93,A,OK
+2025-11-12 11:27:46.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.3,C,OK
+2025-11-12 11:29:12.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.3,C,OK
+2025-11-12 11:30:38.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.32,kW,Warning
+2025-11-12 11:32:05.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 11:33:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.84,kW,OK
+2025-11-12 11:34:58.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.7,C,OK
+2025-11-12 11:36:24.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.6,C,OK
+2025-11-12 11:37:50.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.3,C,OK
+2025-11-12 11:39:17.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.55,kW,OK
+2025-11-12 11:40:43.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.77,kW,OK
+2025-11-12 11:42:10.007284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,9.84,A,OK
+2025-11-12 11:43:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,14.35,A,OK
+2025-11-12 11:45:02.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,3.14,A,OK
+2025-11-12 11:46:29.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 11:47:55.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 11:49:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 11:50:48.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,8.73,A,OK
+2025-11-12 11:52:14.807284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.5,C,OK
+2025-11-12 11:53:41.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.57,kW,OK
+2025-11-12 11:55:07.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 11:56:34.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,8.93,A,OK
+2025-11-12 11:58:00.407284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.54,kW,OK
+2025-11-12 11:59:26.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,2.41,A,OK
+2025-11-12 12:00:53.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,13.82,A,OK
+2025-11-12 12:02:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.6,C,OK
+2025-11-12 12:03:46.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,5.87,A,OK
+2025-11-12 12:05:12.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.8,C,OK
+2025-11-12 12:06:38.807284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,9.58,A,OK
+2025-11-12 12:08:05.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,2.64,A,OK
+2025-11-12 12:09:31.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.0,C,OK
+2025-11-12 12:10:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.0,C,OK
+2025-11-12 12:12:24.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.2,C,OK
+2025-11-12 12:13:50.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.5,C,OK
+2025-11-12 12:15:17.207284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,13.62,A,OK
+2025-11-12 12:16:43.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,13.16,A,OK
+2025-11-12 12:18:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 12:19:36.407284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.64,kW,OK
+2025-11-12 12:21:02.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.2,C,OK
+2025-11-12 12:22:29.207284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.5,C,OK
+2025-11-12 12:23:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 12:25:22.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.0,kW,OK
+2025-11-12 12:26:48.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.21,kW,OK
+2025-11-12 12:28:14.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 12:29:41.207284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,7.3,A,OK
+2025-11-12 12:31:07.607284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,11.71,A,OK
+2025-11-12 12:32:34.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.1,C,Error
+2025-11-12 12:34:00.407284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,6.74,A,OK
+2025-11-12 12:35:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.3,C,OK
+2025-11-12 12:36:53.207284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.64,A,OK
+2025-11-12 12:38:19.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.8,C,OK
+2025-11-12 12:39:46.007284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,14.63,A,OK
+2025-11-12 12:41:12.407284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.87,kW,OK
+2025-11-12 12:42:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.9,kW,OK
+2025-11-12 12:44:05.207284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.56,kW,OK
+2025-11-12 12:45:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 12:46:58.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.6,C,OK
+2025-11-12 12:48:24.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.9,C,OK
+2025-11-12 12:49:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.92,kW,OK
+2025-11-12 12:51:17.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.1,C,OK
+2025-11-12 12:52:43.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,6.57,A,OK
+2025-11-12 12:54:10.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 12:55:36.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 12:57:02.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,Error
+2025-11-12 12:58:29.207284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.12,kW,OK
+2025-11-12 12:59:55.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.9,kW,OK
+2025-11-12 13:01:22.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.59,A,OK
+2025-11-12 13:02:48.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,1.68,A,OK
+2025-11-12 13:04:14.807284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 13:05:41.207284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.38,kW,OK
+2025-11-12 13:07:07.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.4,C,OK
+2025-11-12 13:08:34.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.29,kW,OK
+2025-11-12 13:10:00.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.73,kW,OK
+2025-11-12 13:11:26.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.4,kW,OK
+2025-11-12 13:12:53.207284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.41,A,OK
+2025-11-12 13:14:19.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,8.47,A,OK
+2025-11-12 13:15:46.007284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.39,kW,OK
+2025-11-12 13:17:12.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 13:18:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,3.53,A,OK
+2025-11-12 13:20:05.207284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.0,C,Warning
+2025-11-12 13:21:31.607284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.77,kW,OK
+2025-11-12 13:22:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.7,C,OK
+2025-11-12 13:24:24.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.35,kW,OK
+2025-11-12 13:25:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,14.12,A,OK
+2025-11-12 13:27:17.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,Error
+2025-11-12 13:28:43.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.9,C,OK
+2025-11-12 13:30:10.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,5.9,A,OK
+2025-11-12 13:31:36.407284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.7,kW,OK
+2025-11-12 13:33:02.807284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,9.19,A,OK
+2025-11-12 13:34:29.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,3.78,A,OK
+2025-11-12 13:35:55.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.6,C,OK
+2025-11-12 13:37:22.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.5,C,OK
+2025-11-12 13:38:48.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,3.63,A,OK
+2025-11-12 13:40:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 13:41:41.207284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 13:43:07.607284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.36,kW,OK
+2025-11-12 13:44:34.007284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.94,kW,OK
+2025-11-12 13:46:00.407284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 13:47:26.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.88,kW,OK
+2025-11-12 13:48:53.207284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.5,kW,OK
+2025-11-12 13:50:19.607284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.21,kW,OK
+2025-11-12 13:51:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 13:53:12.407284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,13.21,A,OK
+2025-11-12 13:54:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,1.94,A,OK
+2025-11-12 13:56:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 13:57:31.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,3.48,A,OK
+2025-11-12 13:58:58.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 14:00:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 14:01:50.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 14:03:17.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.4,C,OK
+2025-11-12 14:04:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 14:06:10.007284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.72,kW,OK
+2025-11-12 14:07:36.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.5,C,OK
+2025-11-12 14:09:02.807284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.01,kW,OK
+2025-11-12 14:10:29.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,2.01,kW,OK
+2025-11-12 14:11:55.607284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.69,kW,OK
+2025-11-12 14:13:22.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.2,kW,OK
+2025-11-12 14:14:48.407284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.62,kW,OK
+2025-11-12 14:16:14.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,11.08,A,Error
+2025-11-12 14:17:41.207284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.32,kW,OK
+2025-11-12 14:19:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 14:20:34.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,9.51,A,OK
+2025-11-12 14:22:00.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.5,C,OK
+2025-11-12 14:23:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.5,C,OK
+2025-11-12 14:24:53.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,14.12,A,OK
+2025-11-12 14:26:19.607284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.6,C,OK
+2025-11-12 14:27:46.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.1,C,OK
+2025-11-12 14:29:12.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.92,kW,OK
+2025-11-12 14:30:38.807284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,5.8,A,OK
+2025-11-12 14:32:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,2.99,A,OK
+2025-11-12 14:33:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 14:34:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 14:36:24.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.2,C,OK
+2025-11-12 14:37:50.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.7,C,OK
+2025-11-12 14:39:17.207284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 14:40:43.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.8,kW,OK
+2025-11-12 14:42:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 14:43:36.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,12.59,A,OK
+2025-11-12 14:45:02.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.91,kW,OK
+2025-11-12 14:46:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.7,C,Warning
+2025-11-12 14:47:55.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.8,C,OK
+2025-11-12 14:49:22.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.2,C,OK
+2025-11-12 14:50:48.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 14:52:14.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.7,C,OK
+2025-11-12 14:53:41.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 14:55:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,3.47,A,OK
+2025-11-12 14:56:34.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.4,C,OK
+2025-11-12 14:58:00.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 14:59:26.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.6,C,OK
+2025-11-12 15:00:53.207284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.95,kW,OK
+2025-11-12 15:02:19.607284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.4,kW,OK
+2025-11-12 15:03:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 15:05:12.407284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.91,kW,OK
+2025-11-12 15:06:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.64,kW,OK
+2025-11-12 15:08:05.207284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.3,C,OK
+2025-11-12 15:09:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.0,C,OK
+2025-11-12 15:10:58.007284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,5.7,A,OK
+2025-11-12 15:12:24.407284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.07,A,OK
+2025-11-12 15:13:50.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.1,C,OK
+2025-11-12 15:15:17.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 15:16:43.607284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.64,kW,OK
+2025-11-12 15:18:10.007284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,4.99,A,OK
+2025-11-12 15:19:36.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.3,C,OK
+2025-11-12 15:21:02.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.4,C,OK
+2025-11-12 15:22:29.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.6,C,Warning
+2025-11-12 15:23:55.607284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.1,C,Warning
+2025-11-12 15:25:22.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.5,C,OK
+2025-11-12 15:26:48.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.62,kW,OK
+2025-11-12 15:28:14.807284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 15:29:41.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.8,C,OK
+2025-11-12 15:31:07.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,2.37,A,OK
+2025-11-12 15:32:34.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.1,C,OK
+2025-11-12 15:34:00.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.6,C,OK
+2025-11-12 15:35:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.0,C,OK
+2025-11-12 15:36:53.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.6,C,Warning
+2025-11-12 15:38:19.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 15:39:46.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 15:41:12.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.96,kW,OK
+2025-11-12 15:42:38.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.1,C,OK
+2025-11-12 15:44:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 15:45:31.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.8,C,OK
+2025-11-12 15:46:58.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 15:48:24.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.6,C,OK
+2025-11-12 15:49:50.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.07,kW,OK
+2025-11-12 15:51:17.207284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 15:52:43.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.64,kW,OK
+2025-11-12 15:54:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 15:55:36.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,10.62,A,OK
+2025-11-12 15:57:02.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.4,C,OK
+2025-11-12 15:58:29.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.6,C,OK
+2025-11-12 15:59:55.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.9,kW,OK
+2025-11-12 16:01:22.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,10.18,A,OK
+2025-11-12 16:02:48.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:04:14.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:05:41.207284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,4.7,A,OK
+2025-11-12 16:07:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 16:08:34.007284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 16:10:00.407284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,1.65,A,Error
+2025-11-12 16:11:26.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:12:53.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 16:14:19.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:15:46.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.6,C,OK
+2025-11-12 16:17:12.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.7,C,OK
+2025-11-12 16:18:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,3.62,A,OK
+2025-11-12 16:20:05.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,0.59,kW,OK
+2025-11-12 16:21:31.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.17,kW,OK
+2025-11-12 16:22:58.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,0.55,kW,OK
+2025-11-12 16:24:24.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.2,C,OK
+2025-11-12 16:25:50.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.5,C,OK
+2025-11-12 16:27:17.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,9.17,A,OK
+2025-11-12 16:28:43.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.9,C,OK
+2025-11-12 16:30:10.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,8.01,A,OK
+2025-11-12 16:31:36.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.0,C,OK
+2025-11-12 16:33:02.807284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,7.15,A,OK
+2025-11-12 16:34:29.207284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,7.92,A,Error
+2025-11-12 16:35:55.607284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:37:22.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,13.97,A,OK
+2025-11-12 16:38:48.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:40:14.807284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,1.45,A,OK
+2025-11-12 16:41:41.207284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,6.88,A,OK
+2025-11-12 16:43:07.607284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",Current_A,5.79,A,OK
+2025-11-12 16:44:34.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.0,C,OK
+2025-11-12 16:46:00.407284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.62,kW,OK
+2025-11-12 16:47:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.2,C,OK
+2025-11-12 16:48:53.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,4.48,A,OK
+2025-11-12 16:50:19.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.93,kW,OK
+2025-11-12 16:51:46.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,12.67,A,OK
+2025-11-12 16:53:12.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,11.4,A,OK
+2025-11-12 16:54:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.41,kW,OK
+2025-11-12 16:56:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 16:57:31.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 16:58:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.7,C,OK
+2025-11-12 17:00:24.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.57,kW,Warning
+2025-11-12 17:01:50.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 17:03:17.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,14.86,A,OK
+2025-11-12 17:04:43.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.6,C,OK
+2025-11-12 17:06:10.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.5,C,OK
+2025-11-12 17:07:36.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,10.69,A,OK
+2025-11-12 17:09:02.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,1.72,A,OK
+2025-11-12 17:10:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.4,C,OK
+2025-11-12 17:11:55.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.6,C,OK
+2025-11-12 17:13:22.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 17:14:48.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.0,kW,OK
+2025-11-12 17:16:14.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.9,C,OK
+2025-11-12 17:17:41.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.9,C,OK
+2025-11-12 17:19:07.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 17:20:34.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.1,C,OK
+2025-11-12 17:22:00.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 17:23:26.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,10.97,A,OK
+2025-11-12 17:24:53.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.47,kW,OK
+2025-11-12 17:26:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.53,kW,Warning
+2025-11-12 17:27:46.007284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,5.25,A,OK
+2025-11-12 17:29:12.407284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 17:30:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,6.46,A,OK
+2025-11-12 17:32:05.207284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.3,C,OK
+2025-11-12 17:33:31.607284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.8,C,OK
+2025-11-12 17:34:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.64,kW,OK
+2025-11-12 17:36:24.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.6,C,OK
+2025-11-12 17:37:50.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 17:39:17.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.71,kW,OK
+2025-11-12 17:40:43.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.6,C,OK
+2025-11-12 17:42:10.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.1,C,OK
+2025-11-12 17:43:36.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 17:45:02.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.81,kW,OK
+2025-11-12 17:46:29.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.48,kW,OK
+2025-11-12 17:47:55.607284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,13.83,A,OK
+2025-11-12 17:49:22.007284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.74,kW,OK
+2025-11-12 17:50:48.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.91,kW,OK
+2025-11-12 17:52:14.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.8,C,OK
+2025-11-12 17:53:41.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,Warning
+2025-11-12 17:55:07.607284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,10.84,A,OK
+2025-11-12 17:56:34.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,2.36,A,OK
+2025-11-12 17:58:00.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,3.01,A,OK
+2025-11-12 17:59:26.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 18:00:53.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,7.11,A,OK
+2025-11-12 18:02:19.607284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.9,C,OK
+2025-11-12 18:03:46.007284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.75,kW,OK
+2025-11-12 18:05:12.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,12.46,A,OK
+2025-11-12 18:06:38.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.0,C,OK
+2025-11-12 18:08:05.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.1,C,OK
+2025-11-12 18:09:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.3,C,OK
+2025-11-12 18:10:58.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.8,C,OK
+2025-11-12 18:12:24.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.71,kW,OK
+2025-11-12 18:13:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,11.37,A,OK
+2025-11-12 18:15:17.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.9,C,OK
+2025-11-12 18:16:43.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.0,C,OK
+2025-11-12 18:18:10.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.5,C,OK
+2025-11-12 18:19:36.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 18:21:02.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,10.26,A,Warning
+2025-11-12 18:22:29.207284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.1,C,OK
+2025-11-12 18:23:55.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,0.75,kW,OK
+2025-11-12 18:25:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 18:26:48.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.4,C,Warning
+2025-11-12 18:28:14.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,5.73,A,OK
+2025-11-12 18:29:41.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 18:31:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.63,kW,OK
+2025-11-12 18:32:34.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 18:34:00.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.9,kW,OK
+2025-11-12 18:35:26.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 18:36:53.207284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.9,C,OK
+2025-11-12 18:38:19.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.08,kW,OK
+2025-11-12 18:39:46.007284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,7.84,A,OK
+2025-11-12 18:41:12.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.3,C,OK
+2025-11-12 18:42:38.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,12.29,A,OK
+2025-11-12 18:44:05.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,4.71,kW,OK
+2025-11-12 18:45:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 18:46:58.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.6,C,OK
+2025-11-12 18:48:24.407284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.46,kW,OK
+2025-11-12 18:49:50.807284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,13.06,A,OK
+2025-11-12 18:51:17.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,14.66,A,OK
+2025-11-12 18:52:43.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 18:54:10.007284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.72,kW,OK
+2025-11-12 18:55:36.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.9,C,OK
+2025-11-12 18:57:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 18:58:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.2,C,OK
+2025-11-12 18:59:55.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 19:01:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 19:02:48.407284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.79,kW,OK
+2025-11-12 19:04:14.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.0,C,OK
+2025-11-12 19:05:41.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.05,kW,OK
+2025-11-12 19:07:07.607284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.82,kW,OK
+2025-11-12 19:08:34.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.9,C,OK
+2025-11-12 19:10:00.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.1,C,OK
+2025-11-12 19:11:26.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,6.6,A,OK
+2025-11-12 19:12:53.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 19:14:19.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.85,kW,OK
+2025-11-12 19:15:46.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.1,C,OK
+2025-11-12 19:17:12.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.4,C,OK
+2025-11-12 19:18:38.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 19:20:05.207284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.39,kW,OK
+2025-11-12 19:21:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,21.9,C,OK
+2025-11-12 19:22:58.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.8,C,OK
+2025-11-12 19:24:24.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.86,kW,OK
+2025-11-12 19:25:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.32,kW,OK
+2025-11-12 19:27:17.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 19:28:43.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 19:30:10.007284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.08,kW,OK
+2025-11-12 19:31:36.407284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,3.7,kW,OK
+2025-11-12 19:33:02.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 19:34:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.2,C,OK
+2025-11-12 19:35:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 19:37:22.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.1,C,OK
+2025-11-12 19:38:48.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.7,C,OK
+2025-11-12 19:40:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.67,kW,OK
+2025-11-12 19:41:41.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.2,C,OK
+2025-11-12 19:43:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 19:44:34.007284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,2.02,A,OK
+2025-11-12 19:46:00.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.6,C,OK
+2025-11-12 19:47:26.807284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.51,kW,OK
+2025-11-12 19:48:53.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.7,C,OK
+2025-11-12 19:50:19.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.8,C,OK
+2025-11-12 19:51:46.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,12.82,A,OK
+2025-11-12 19:53:12.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.2,C,OK
+2025-11-12 19:54:38.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 19:56:05.207284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.26,kW,OK
+2025-11-12 19:57:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.45,kW,OK
+2025-11-12 19:58:58.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.0,C,OK
+2025-11-12 20:00:24.407284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.17,kW,OK
+2025-11-12 20:01:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.59,kW,OK
+2025-11-12 20:03:17.207284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:04:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 20:06:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:07:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.87,kW,OK
+2025-11-12 20:09:02.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,12.8,A,OK
+2025-11-12 20:10:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.2,C,OK
+2025-11-12 20:11:55.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.0,C,OK
+2025-11-12 20:13:22.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.8,C,OK
+2025-11-12 20:14:48.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:16:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.09,kW,Error
+2025-11-12 20:17:41.207284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 20:19:07.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.72,kW,OK
+2025-11-12 20:20:34.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.9,C,OK
+2025-11-12 20:22:00.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:23:26.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,4.11,A,OK
+2025-11-12 20:24:53.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.41,kW,OK
+2025-11-12 20:26:19.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,1.58,A,OK
+2025-11-12 20:27:46.007284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,10.23,A,OK
+2025-11-12 20:29:12.407284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.98,kW,OK
+2025-11-12 20:30:38.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,2.29,kW,OK
+2025-11-12 20:32:05.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.2,C,OK
+2025-11-12 20:33:31.607284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,3.68,kW,OK
+2025-11-12 20:34:58.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.4,C,Error
+2025-11-12 20:36:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 20:37:50.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.8,C,OK
+2025-11-12 20:39:17.207284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,2.12,A,OK
+2025-11-12 20:40:43.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.28,kW,OK
+2025-11-12 20:42:10.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.7,C,OK
+2025-11-12 20:43:36.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:45:02.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,14.37,A,OK
+2025-11-12 20:46:29.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.26,kW,OK
+2025-11-12 20:47:55.607284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:49:22.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.61,kW,OK
+2025-11-12 20:50:48.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.7,C,OK
+2025-11-12 20:52:14.807284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 20:53:41.207284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,4.87,kW,OK
+2025-11-12 20:55:07.607284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,0.83,kW,OK
+2025-11-12 20:56:34.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 20:58:00.407284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,8.55,A,Error
+2025-11-12 20:59:26.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.8,C,OK
+2025-11-12 21:00:53.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 21:02:19.607284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,12.64,A,OK
+2025-11-12 21:03:46.007284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.47,kW,OK
+2025-11-12 21:05:12.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.27,kW,OK
+2025-11-12 21:06:38.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,4.01,A,OK
+2025-11-12 21:08:05.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.66,kW,OK
+2025-11-12 21:09:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.8,C,OK
+2025-11-12 21:10:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.36,kW,OK
+2025-11-12 21:12:24.407284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 21:13:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,2.59,A,OK
+2025-11-12 21:15:17.207284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.62,kW,OK
+2025-11-12 21:16:43.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,4.96,kW,OK
+2025-11-12 21:18:10.007284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.45,kW,OK
+2025-11-12 21:19:36.407284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.71,A,OK
+2025-11-12 21:21:02.807284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,10.47,A,OK
+2025-11-12 21:22:29.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 21:23:55.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 21:25:22.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,9.35,A,OK
+2025-11-12 21:26:48.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.9,C,OK
+2025-11-12 21:28:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,1.6,A,OK
+2025-11-12 21:29:41.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,2.69,A,OK
+2025-11-12 21:31:07.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,9.67,A,OK
+2025-11-12 21:32:34.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.0,C,OK
+2025-11-12 21:34:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.6,C,OK
+2025-11-12 21:35:26.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 21:36:53.207284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,9.87,A,OK
+2025-11-12 21:38:19.607284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.62,kW,OK
+2025-11-12 21:39:46.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 21:41:12.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.3,C,OK
+2025-11-12 21:42:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,0.72,kW,OK
+2025-11-12 21:44:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,10.53,A,OK
+2025-11-12 21:45:31.607284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 21:46:58.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 21:48:24.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.7,C,OK
+2025-11-12 21:49:50.807284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 21:51:17.207284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,5.06,A,OK
+2025-11-12 21:52:43.607284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.2,C,OK
+2025-11-12 21:54:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 21:55:36.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.3,C,OK
+2025-11-12 21:57:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 21:58:29.207284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.2,C,OK
+2025-11-12 21:59:55.607284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.6,C,OK
+2025-11-12 22:01:22.007284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.7,C,OK
+2025-11-12 22:02:48.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.02,kW,OK
+2025-11-12 22:04:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 22:05:41.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.63,kW,OK
+2025-11-12 22:07:07.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.6,C,OK
+2025-11-12 22:08:34.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,0.88,kW,OK
+2025-11-12 22:10:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.1,C,OK
+2025-11-12 22:11:26.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.21,kW,Error
+2025-11-12 22:12:53.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,3.57,A,OK
+2025-11-12 22:14:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.0,C,OK
+2025-11-12 22:15:46.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 22:17:12.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.16,kW,OK
+2025-11-12 22:18:38.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.9,C,OK
+2025-11-12 22:20:05.207284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.05,kW,OK
+2025-11-12 22:21:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,Warning
+2025-11-12 22:22:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 22:24:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 22:25:50.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.42,kW,OK
+2025-11-12 22:27:17.207284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.63,kW,OK
+2025-11-12 22:28:43.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,3.36,kW,OK
+2025-11-12 22:30:10.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 22:31:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,14.15,A,OK
+2025-11-12 22:33:02.807284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,10.45,A,OK
+2025-11-12 22:34:29.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,2.6,kW,OK
+2025-11-12 22:35:55.607284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,8.92,A,OK
+2025-11-12 22:37:22.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.9,C,OK
+2025-11-12 22:38:48.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.89,kW,OK
+2025-11-12 22:40:14.807284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.1,C,OK
+2025-11-12 22:41:41.207284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,1.0,A,OK
+2025-11-12 22:43:07.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,14.74,A,OK
+2025-11-12 22:44:34.007284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.13,kW,OK
+2025-11-12 22:46:00.407284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,7.82,A,OK
+2025-11-12 22:47:26.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.6,C,OK
+2025-11-12 22:48:53.207284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.54,kW,OK
+2025-11-12 22:50:19.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.6,C,OK
+2025-11-12 22:51:46.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,0.96,kW,OK
+2025-11-12 22:53:12.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.2,C,OK
+2025-11-12 22:54:38.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.13,kW,OK
+2025-11-12 22:56:05.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 22:57:31.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,12.74,A,OK
+2025-11-12 22:58:58.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,1.77,A,OK
+2025-11-12 23:00:24.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,10.0,A,OK
+2025-11-12 23:01:50.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.37,kW,OK
+2025-11-12 23:03:17.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.0,C,OK
+2025-11-12 23:04:43.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,12.62,A,OK
+2025-11-12 23:06:10.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,11.03,A,OK
+2025-11-12 23:07:36.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-12 23:09:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 23:10:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.5,C,OK
+2025-11-12 23:11:55.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.0,C,OK
+2025-11-12 23:13:22.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,Error
+2025-11-12 23:14:48.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 23:16:14.807284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.57,kW,OK
+2025-11-12 23:17:41.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-12 23:19:07.607284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,5.16,A,OK
+2025-11-12 23:20:34.007284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,12.92,A,OK
+2025-11-12 23:22:00.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.4,C,OK
+2025-11-12 23:23:26.807284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,13.06,A,OK
+2025-11-12 23:24:53.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.8,C,OK
+2025-11-12 23:26:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.4,C,OK
+2025-11-12 23:27:46.007284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-12 23:29:12.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.9,C,OK
+2025-11-12 23:30:38.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-12 23:32:05.207284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,2.5,A,OK
+2025-11-12 23:33:31.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 23:34:58.007284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,11.62,A,OK
+2025-11-12 23:36:24.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,14.26,A,OK
+2025-11-12 23:37:50.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.1,C,OK
+2025-11-12 23:39:17.207284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.07,A,OK
+2025-11-12 23:40:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 23:42:10.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.3,C,OK
+2025-11-12 23:43:36.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,3.13,A,OK
+2025-11-12 23:45:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-12 23:46:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.8,C,OK
+2025-11-12 23:47:55.607284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,2.62,kW,OK
+2025-11-12 23:49:22.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,14.56,A,Warning
+2025-11-12 23:50:48.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-12 23:52:14.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,2.11,kW,OK
+2025-11-12 23:53:41.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.64,kW,OK
+2025-11-12 23:55:07.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.58,kW,OK
+2025-11-12 23:56:34.007284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.2,kW,OK
+2025-11-12 23:58:00.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.0,C,OK
+2025-11-12 23:59:26.807284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.76,kW,OK
+2025-11-13 00:00:53.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 00:02:19.607284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.02,kW,OK
+2025-11-13 00:03:46.007284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.83,kW,OK
+2025-11-13 00:05:12.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.1,C,OK
+2025-11-13 00:06:38.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.39,kW,OK
+2025-11-13 00:08:05.207284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,3.92,kW,OK
+2025-11-13 00:09:31.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.32,kW,OK
+2025-11-13 00:10:58.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.51,kW,Warning
+2025-11-13 00:12:24.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 00:13:50.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 00:15:17.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 00:16:43.607284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 00:18:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 00:19:36.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,11.27,A,OK
+2025-11-13 00:21:02.807284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.1,C,OK
+2025-11-13 00:22:29.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,2.11,kW,OK
+2025-11-13 00:23:55.607284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,2.23,kW,OK
+2025-11-13 00:25:22.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.7,C,OK
+2025-11-13 00:26:48.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.3,C,OK
+2025-11-13 00:28:14.807284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.19,kW,OK
+2025-11-13 00:29:41.207284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,14.64,A,OK
+2025-11-13 00:31:07.607284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",Current_A,6.35,A,OK
+2025-11-13 00:32:34.007284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.5,C,OK
+2025-11-13 00:34:00.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 00:35:26.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,13.55,A,Warning
+2025-11-13 00:36:53.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.7,C,OK
+2025-11-13 00:38:19.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.8,C,OK
+2025-11-13 00:39:46.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.1,C,OK
+2025-11-13 00:41:12.407284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,13.86,A,OK
+2025-11-13 00:42:38.807284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,3.14,kW,OK
+2025-11-13 00:44:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 00:45:31.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.9,C,OK
+2025-11-13 00:46:58.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,2.52,kW,OK
+2025-11-13 00:48:24.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.1,C,OK
+2025-11-13 00:49:50.807284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.3,C,OK
+2025-11-13 00:51:17.207284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,7.09,A,OK
+2025-11-13 00:52:43.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.6,C,OK
+2025-11-13 00:54:10.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.1,C,OK
+2025-11-13 00:55:36.407284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,0.92,kW,OK
+2025-11-13 00:57:02.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,12.91,A,OK
+2025-11-13 00:58:29.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 00:59:55.607284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,14.97,A,OK
+2025-11-13 01:01:22.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,Error
+2025-11-13 01:02:48.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,19.8,C,OK
+2025-11-13 01:04:14.807284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 01:05:41.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.9,C,OK
+2025-11-13 01:07:07.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,9.89,A,OK
+2025-11-13 01:08:34.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.0,C,OK
+2025-11-13 01:10:00.407284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.3,C,OK
+2025-11-13 01:11:26.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 01:12:53.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.59,kW,OK
+2025-11-13 01:14:19.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.87,kW,OK
+2025-11-13 01:15:46.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 01:17:12.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,9.97,A,OK
+2025-11-13 01:18:38.807284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,2.56,A,OK
+2025-11-13 01:20:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 01:21:31.607284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,14.22,A,OK
+2025-11-13 01:22:58.007284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.6,C,OK
+2025-11-13 01:24:24.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 01:25:50.807284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,9.37,A,OK
+2025-11-13 01:27:17.207284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,9.4,A,OK
+2025-11-13 01:28:43.607284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.71,kW,OK
+2025-11-13 01:30:10.007284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,1.46,A,OK
+2025-11-13 01:31:36.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.9,C,OK
+2025-11-13 01:33:02.807284,BLD-PAR-001,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.4,C,OK
+2025-11-13 01:34:29.207284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,6.69,A,OK
+2025-11-13 01:35:55.607284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,2.8,kW,OK
+2025-11-13 01:37:22.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,1.5,A,OK
+2025-11-13 01:38:48.407284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 01:40:14.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.22,kW,OK
+2025-11-13 01:41:41.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,19.7,C,OK
+2025-11-13 01:43:07.607284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.98,kW,OK
+2025-11-13 01:44:34.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.18,kW,OK
+2025-11-13 01:46:00.407284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,0.5,kW,OK
+2025-11-13 01:47:26.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,24.9,C,OK
+2025-11-13 01:48:53.207284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,11.68,A,OK
+2025-11-13 01:50:19.607284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,22.8,C,OK
+2025-11-13 01:51:46.007284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.15,kW,OK
+2025-11-13 01:53:12.407284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,24.5,C,OK
+2025-11-13 01:54:38.807284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.9,C,OK
+2025-11-13 01:56:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 01:57:31.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,20.4,C,OK
+2025-11-13 01:58:58.007284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,9.3,A,OK
+2025-11-13 02:00:24.407284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.84,kW,OK
+2025-11-13 02:01:50.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:03:17.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.5,C,OK
+2025-11-13 02:04:43.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:06:10.007284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,10.34,A,OK
+2025-11-13 02:07:36.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,12.04,A,OK
+2025-11-13 02:09:02.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 02:10:29.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 02:11:55.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:13:22.007284,BLD-LYO-002,EM-04A-F3,"Floor 1, Office A",Current_A,7.94,A,OK
+2025-11-13 02:14:48.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,24.6,C,OK
+2025-11-13 02:16:14.807284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.95,kW,OK
+2025-11-13 02:17:41.207284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.6,kW,OK
+2025-11-13 02:19:07.607284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:20:34.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.19,kW,OK
+2025-11-13 02:22:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,21.2,C,OK
+2025-11-13 02:23:26.807284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,7.59,A,OK
+2025-11-13 02:24:53.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-13 02:26:19.607284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.3,C,OK
+2025-11-13 02:27:46.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:29:12.407284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",Current_A,3.49,A,OK
+2025-11-13 02:30:38.807284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,13.63,A,OK
+2025-11-13 02:32:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-13 02:33:31.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,1.51,kW,OK
+2025-11-13 02:34:58.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,5.29,A,OK
+2025-11-13 02:36:24.407284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.11,kW,OK
+2025-11-13 02:37:50.807284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,0.61,kW,OK
+2025-11-13 02:39:17.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.8,C,OK
+2025-11-13 02:40:43.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 02:42:10.007284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,5.77,A,OK
+2025-11-13 02:43:36.407284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",Current_A,3.71,A,OK
+2025-11-13 02:45:02.807284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.66,kW,OK
+2025-11-13 02:46:29.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.0,C,OK
+2025-11-13 02:47:55.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.6,C,OK
+2025-11-13 02:49:22.007284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.69,kW,OK
+2025-11-13 02:50:48.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.7,C,OK
+2025-11-13 02:52:14.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.9,C,OK
+2025-11-13 02:53:41.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.0,C,OK
+2025-11-13 02:55:07.607284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",Current_A,13.64,A,OK
+2025-11-13 02:56:34.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:58:00.407284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 02:59:26.807284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,4.27,kW,OK
+2025-11-13 03:00:53.207284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 03:02:19.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,2.7,A,OK
+2025-11-13 03:03:46.007284,BLD-MAR-003,EM-05B-G1,"Basement, HVAC Unit",Current_A,11.42,A,OK
+2025-11-13 03:05:12.407284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-13 03:06:38.807284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,13.57,A,OK
+2025-11-13 03:08:05.207284,BLD-PAR-001,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,2.93,kW,OK
+2025-11-13 03:09:31.607284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.1,C,OK
+2025-11-13 03:10:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 03:12:24.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,22.7,C,Warning
+2025-11-13 03:13:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",Current_A,9.86,A,OK
+2025-11-13 03:15:17.207284,BLD-MAR-003,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,1.0,boolean,Warning
+2025-11-13 03:16:43.607284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,3.02,A,OK
+2025-11-13 03:18:10.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.42,kW,OK
+2025-11-13 03:19:36.407284,BLD-LYO-002,EM-05B-G1,"Floor 1, Office A",Current_A,6.98,A,Warning
+2025-11-13 03:21:02.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.35,kW,OK
+2025-11-13 03:22:29.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,20.0,C,OK
+2025-11-13 03:23:55.607284,BLD-MAR-003,EM-04A-F3,"Floor 1, Office A",Current_A,3.6,A,OK
+2025-11-13 03:25:22.007284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",Current_A,5.47,A,OK
+2025-11-13 03:26:48.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.1,C,OK
+2025-11-13 03:28:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 03:29:41.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,22.7,C,OK
+2025-11-13 03:31:07.607284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.6,kW,Error
+2025-11-13 03:32:34.007284,BLD-MAR-003,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.66,kW,OK
+2025-11-13 03:34:00.407284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,0.58,kW,OK
+2025-11-13 03:35:26.807284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-13 03:36:53.207284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,13.07,A,OK
+2025-11-13 03:38:19.607284,BLD-MAR-003,EM-05B-G1,"Floor 2, Server Room",Current_A,11.57,A,OK
+2025-11-13 03:39:46.007284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",Current_A,1.6,A,OK
+2025-11-13 03:41:12.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-13 03:42:38.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",Current_A,10.75,A,OK
+2025-11-13 03:44:05.207284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.0,C,OK
+2025-11-13 03:45:31.607284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,12.62,A,OK
+2025-11-13 03:46:58.007284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,Warning
+2025-11-13 03:48:24.407284,BLD-MAR-003,HVAC-01C-H2,"Floor 1, Office A",Temperature_C,23.1,C,OK
+2025-11-13 03:49:50.807284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,4.23,kW,OK
+2025-11-13 03:51:17.207284,BLD-PAR-001,EM-05B-G1,"Basement, HVAC Unit",Current_A,7.26,A,OK
+2025-11-13 03:52:43.607284,BLD-MAR-003,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,4.82,kW,OK
+2025-11-13 03:54:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 03:55:36.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,20.4,C,OK
+2025-11-13 03:57:02.807284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 03:58:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.0,C,OK
+2025-11-13 03:59:55.607284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,11.54,A,OK
+2025-11-13 04:01:22.007284,BLD-PAR-001,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 04:02:48.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.8,C,OK
+2025-11-13 04:04:14.807284,BLD-MAR-003,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,1.0,boolean,OK
+2025-11-13 04:05:41.207284,BLD-MAR-003,EM-05B-G1,"Floor 1, Office A",Current_A,1.32,A,OK
+2025-11-13 04:07:07.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.7,C,Error
+2025-11-13 04:08:34.007284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.4,C,OK
+2025-11-13 04:10:00.407284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.4,C,OK
+2025-11-13 04:11:26.807284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 04:12:53.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,19.5,C,OK
+2025-11-13 04:14:19.607284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,23.9,C,OK
+2025-11-13 04:15:46.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 04:17:12.407284,BLD-MAR-003,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,4.05,kW,OK
+2025-11-13 04:18:38.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.3,C,OK
+2025-11-13 04:20:05.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 3, Meeting Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 04:21:31.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,0.75,kW,OK
+2025-11-13 04:22:58.007284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,1.07,kW,OK
+2025-11-13 04:24:24.407284,BLD-PAR-001,EM-04A-F3,"Basement, HVAC Unit",Current_A,10.91,A,OK
+2025-11-13 04:25:50.807284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,1.4,kW,OK
+2025-11-13 04:27:17.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.7,C,OK
+2025-11-13 04:28:43.607284,BLD-LYO-002,EM-04A-F3,"Floor 3, Meeting Room",Current_A,2.0,A,OK
+2025-11-13 04:30:10.007284,BLD-PAR-001,EM-04A-F3,"Floor 1, Office A",ActivePower_kW,0.77,kW,OK
+2025-11-13 04:31:36.407284,BLD-MAR-003,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,23.5,C,OK
+2025-11-13 04:33:02.807284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,1.42,kW,OK
+2025-11-13 04:34:29.207284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.8,C,OK
+2025-11-13 04:35:55.607284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,8.82,A,Error
+2025-11-13 04:37:22.007284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",Current_A,2.71,A,OK
+2025-11-13 04:38:48.407284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,13.96,A,OK
+2025-11-13 04:40:14.807284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,2.85,kW,OK
+2025-11-13 04:41:41.207284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 04:43:07.607284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",Current_A,2.02,A,OK
+2025-11-13 04:44:34.007284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 04:46:00.407284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",Current_A,12.13,A,OK
+2025-11-13 04:47:26.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-13 04:48:53.207284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.5,C,OK
+2025-11-13 04:50:19.607284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,3.59,kW,OK
+2025-11-13 04:51:46.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,20.4,C,OK
+2025-11-13 04:53:12.407284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,0.0,boolean,OK
+2025-11-13 04:54:38.807284,BLD-MAR-003,EM-05B-G1,"Floor 3, Meeting Room",ActivePower_kW,3.83,kW,OK
+2025-11-13 04:56:05.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.0,C,OK
+2025-11-13 04:57:31.607284,BLD-MAR-003,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 04:58:58.007284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.77,kW,OK
+2025-11-13 05:00:24.407284,BLD-LYO-002,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,0.0,boolean,OK
+2025-11-13 05:01:50.807284,BLD-LYO-002,HVAC-01C-H2,"Basement, HVAC Unit",Temperature_C,21.0,C,OK
+2025-11-13 05:03:17.207284,BLD-LYO-002,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.0,C,Error
+2025-11-13 05:04:43.607284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.66,kW,OK
+2025-11-13 05:06:10.007284,BLD-LYO-002,LIGHT-02D-I4,"Floor 2, Server Room",Occupancy_Status,1.0,boolean,OK
+2025-11-13 05:07:36.407284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",ActivePower_kW,4.11,kW,OK
+2025-11-13 05:09:02.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,22.7,C,OK
+2025-11-13 05:10:29.207284,BLD-LYO-002,EM-04A-F3,"Basement, HVAC Unit",ActivePower_kW,1.77,kW,OK
+2025-11-13 05:11:55.607284,BLD-LYO-002,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,3.08,kW,Warning
+2025-11-13 05:13:22.007284,BLD-MAR-003,HVAC-01C-H2,"Floor 3, Meeting Room",Temperature_C,21.0,C,OK
+2025-11-13 05:14:48.407284,BLD-LYO-002,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,19.7,C,Error
+2025-11-13 05:16:14.807284,BLD-LYO-002,LIGHT-02D-I4,"Floor 1, Office A",Occupancy_Status,0.0,boolean,OK
+2025-11-13 05:17:41.207284,BLD-MAR-003,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 05:19:07.607284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,8.99,A,OK
+2025-11-13 05:20:34.007284,BLD-PAR-001,EM-05B-G1,"Floor 1, Office A",ActivePower_kW,1.2,kW,OK
+2025-11-13 05:22:00.407284,BLD-LYO-002,EM-05B-G1,"Basement, HVAC Unit",ActivePower_kW,3.98,kW,OK
+2025-11-13 05:23:26.807284,BLD-LYO-002,EM-05B-G1,"Floor 3, Meeting Room",Current_A,4.82,A,OK
+2025-11-13 05:24:53.207284,BLD-LYO-002,EM-05B-G1,"Floor 2, Server Room",Current_A,7.13,A,OK
+2025-11-13 05:26:19.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,1.27,kW,OK
+2025-11-13 05:27:46.007284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,24.4,C,OK
+2025-11-13 05:29:12.407284,BLD-PAR-001,EM-04A-F3,"Floor 2, Server Room",ActivePower_kW,1.47,kW,OK
+2025-11-13 05:30:38.807284,BLD-PAR-001,HVAC-01C-H2,"Floor 2, Server Room",Temperature_C,23.6,C,OK
+2025-11-13 05:32:05.207284,BLD-PAR-001,LIGHT-02D-I4,"Basement, HVAC Unit",Occupancy_Status,1.0,boolean,OK
+2025-11-13 05:33:31.607284,BLD-PAR-001,EM-04A-F3,"Floor 3, Meeting Room",ActivePower_kW,3.7,kW,OK
+2025-11-13 05:34:58.007284,BLD-PAR-001,EM-05B-G1,"Floor 2, Server Room",Current_A,11.3,A,OK

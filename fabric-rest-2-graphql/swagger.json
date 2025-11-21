@@ -1,0 +1,63 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Rest to GraphQL Fabric API",
+        "description": "",
+        "version": "1.0"
+    },
+    "servers": [{
+        "url": "https://apim-tgebslojbs6y2.azure-api.net/fabric-rest-to-graphql"
+    }],
+    "paths": {
+        "/sensors": {
+            "get": {
+                "summary": "sensors",
+                "description": "sensors",
+                "operationId": "sensors",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/sensors/{deviceid}": {
+            "get": {
+                "summary": "sensor",
+                "operationId": "sensor",
+                "parameters": [{
+                    "name": "deviceid",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "apiKeyHeader": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "header"
+            },
+            "apiKeyQuery": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "query"
+            }
+        }
+    },
+    "security": [{
+        "apiKeyHeader": []
+    }, {
+        "apiKeyQuery": []
+    }]
+}

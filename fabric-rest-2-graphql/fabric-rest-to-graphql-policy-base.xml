@@ -1,0 +1,71 @@
+<policies>
+    <!-- Throttle, authorize, validate, cache, or transform the requests -->
+    <inbound>
+        <base />
+        <authentication-managed-identity resource="https://analysis.windows.net/powerbi/api" client-id="{{managedIdentityClientId}}" output-token-variable-name="token-variable" ignore-error="false" />
+        
+        <set-header name="Authorization" exists-action="override">
+            <value>@("Bearer " + (string)context.Variables["token-variable"])</value>
+        </set-header>
+
+        <!-- Set Content-Type for GraphQL -->
+        <set-header name="Content-Type" exists-action="override">
+            <value>application/json</value>
+        </set-header>
+
+        <set-method>POST</set-method>
+        
+        <set-backend-service base-url="{{fabric_graphql_endpoint}}" />
+        <rewrite-uri template="/graphql" />    
+    </inbound>
+    <!-- Control if and how the requests are forwarded to services  -->
+    <backend>
+        <base />
+    </backend>
+    <!-- Customize the responses -->
+    <outbound>
+        <base />
+
+        <choose>
+            <when condition="@(context.Response.StatusCode == 200)">
+                <set-body>@{
+                    var responseBody = context.Response.Body.As<JObject>();
+                    
+                    if (responseBody["data"] != null && responseBody["data"]["factory_iot_datas"] != null)
+                    {
+                        var items = responseBody["data"]["factory_iot_datas"]["items"];
+                        return JsonConvert.SerializeObject(new { sensors = items });
+                    }
+                    else if (responseBody["errors"] != null)
+                    {
+                        return JsonConvert.SerializeObject(new { 
+                            error = "GraphQL Error",
+                            details = responseBody["errors"]
+                        });
+                    }
+                    else
+                    {
+                        return JsonConvert.SerializeObject(new { 
+                            error = "Unexpected response format",
+                            response = responseBody
+                        });
+                    }
+                }</set-body>
+            </when>
+            <otherwise>
+                <set-body>@{
+                    return JsonConvert.SerializeObject(new { 
+                        error = "Fabric API Error",
+                        statusCode = context.Response.StatusCode,
+                        statusReason = context.Response.StatusReason,
+                        body = context.Response.Body.As<string>()
+                    });
+                }</set-body>
+            </otherwise>
+        </choose>
+    </outbound>
+    <!-- Handle exceptions and customize error responses  -->
+    <on-error>
+        <base />
+    </on-error>
+</policies>

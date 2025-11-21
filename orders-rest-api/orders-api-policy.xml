@@ -1,0 +1,55 @@
+<policies>
+    <!-- Throttle, authorize, validate, cache, or transform the requests -->
+    <inbound>
+        <base />
+        
+        <!-- Set backend service URL to the hosted Orders API -->
+        <!-- In production, this would point to your deployed service -->
+        <!-- Example: https://orders-api.azurewebsites.net -->
+        
+        <set-header name="User-Agent" exists-action="override">
+            <value>Azure-API-Management/1.0</value>
+        </set-header>
+
+        <!-- Ensure proper Content-Type -->
+        <set-header name="Content-Type" exists-action="override">
+            <value>application/json</value>
+        </set-header>
+
+        <!-- Enable tracing for debugging -->
+        <set-header name="Ocp-Apim-Trace" exists-action="override">
+            <value>true</value>
+        </set-header>
+
+        <!-- Example auth header to access Orders API backend.
+             Replace YOUR_ORDERS_API_KEY with the actual key or
+             use a named value, e.g. {{ordersApiKey}}. -->
+        <set-header name="X-Auth-Token" exists-action="override">
+            <value>{{ordersApiKey}}</value>
+        </set-header>
+        
+    </inbound>
+    
+    <!-- Control if and how the requests are forwarded to services -->
+    <backend>
+        <base />
+    </backend>
+    
+    <!-- Customize the responses -->
+    <outbound>
+        <base />
+    </outbound>
+    
+    <!-- Handle exceptions and customize error responses -->
+    <on-error>
+        <base />
+        <set-body>@{
+            return JsonConvert.SerializeObject(new { 
+                error = "Orders API Error",
+                statusCode = context.Response.StatusCode,
+                statusReason = context.Response.StatusReason,
+                message = context.LastError?.Message ?? "An error occurred"
+            });
+        }</set-body>
+    </on-error>
+</policies>

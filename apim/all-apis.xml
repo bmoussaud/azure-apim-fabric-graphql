@@ -1,0 +1,106 @@
+<!--
+    IMPORTANT:
+    - Policy elements can appear only within the <inbound>, <outbound>, <backend> section elements.
+    - Only the <forward-request> policy element can appear within the <backend> section element.
+    - To apply a policy to the incoming request (before it is forwarded to the backend service), place a corresponding policy element within the <inbound> section element.
+    - To apply a policy to the outgoing response (before it is sent back to the caller), place a corresponding policy element within the <outbound> section element.
+    - To add a policy position the cursor at the desired insertion point and click on the round button associated with the policy.
+    - To remove a policy, delete the corresponding policy statement from the policy document.
+    - Policies are applied in the order of their appearance, from the top down.
+-->
+<policies>
+    <inbound>
+        <set-header name="User-Agent" exists-action="override">
+            <value>Azure-API-Management/1.0</value>
+        </set-header>
+        <set-header name="Ocp-Apim-Trace" exists-action="override">
+            <value>true</value>
+        </set-header>
+        <!-- Generate a correlation id and expose it -->
+        <set-header name="Apim-Trace-Id" exists-action="override">
+            <value>@(Guid.NewGuid().ToString())</value>
+        </set-header>
+        <!-- Metrics: capture start time and basic request metadata -->
+        <set-variable name="metrics-start-utc" value="@(DateTime.UtcNow)" />
+        <!-- Use Url.Path since MatchedPath is not available in this context -->
+        <set-variable name="metrics-operation-name" value="@((string)context.Request.Url.Path)" />
+        <set-variable name="metrics-method" value="@((string)context.Request.Method)" />
+        <!-- Correlation id: reuse the Apim-Trace-Id value we just set -->
+        <set-variable name="metrics-correlation-id" value="@((string)context.Request.Headers.GetValueOrDefault(&quot;Apim-Trace-Id&quot;, string.Empty))" />
+        <!-- Also expose correlation id to the caller -->
+        <set-header name="x-correlation-id" exists-action="override">
+            <value>@((string)context.Variables["metrics-correlation-id"])</value>
+        </set-header>
+
+        <!-- Trace incoming requests -->
+    <trace source="InboundInformation" severity="error">@{
+        return new JObject(
+          new JProperty("timestamp", DateTime.UtcNow),
+          new JProperty("status", "inbound"),
+          new JProperty("operation", context.Operation.Name),
+          new JProperty("requestId", context.RequestId),
+          new JProperty("clientIP", context.Request.IpAddress),
+          new JProperty("method", context.Request.Method),
+          new JProperty("url", context.Request.Url.ToString()),
+          new JProperty("headers", new JObject(
+            new JProperty("User-Agent", context.Request.Headers.GetValueOrDefault("User-Agent", "Unknown")),
+            new JProperty("Content-Type", context.Request.Headers.GetValueOrDefault("Content-Type", "Unknown"))
+          ))
+        ).ToString();
+      }</trace>
+
+    </inbound>
+    <backend>
+        <forward-request />
+    </backend>
+    <outbound>
+        <!-- Metrics: compute duration and emit a trace for logging -->
+        <set-variable name="metrics-end-utc" value="@(DateTime.UtcNow)" />
+        <set-variable name="metrics-duration-ms" value="@{
+            var start = (DateTime?)context.Variables[&quot;metrics-start-utc&quot;];
+            if (start.HasValue)
+            {
+                return (DateTime.UtcNow - start.Value).TotalMilliseconds.ToString();
+            }
+            return "0";
+        }" />
+        <!-- Optional: expose basic timing info to caller -->
+        <set-header name="x-api-duration-ms" exists-action="override">
+            <value>@((string)context.Variables["metrics-duration-ms"])</value>
+        </set-header>
+        <!-- Trace for APIM diagnostics / Log Analytics -->
+        <trace source="rest-to-graphql-metrics">@{
+                var operation = (string)context.Variables["metrics-operation-name"];
+                var method = (string)context.Variables["metrics-method"];
+                var correlationId = (string)context.Variables["metrics-correlation-id"];
+                var duration = context.Variables["metrics-duration-ms"];
+                var statusCode = context.Response.StatusCode;
+
+                return string.Format("operation={0}; method={1}; statusCode={2}; durationMs={3}; correlationId={4}", operation, method, statusCode, duration, correlationId);
+            }</trace>
+
+        <trace source="OutboundInformation" severity="error">@{
+                return new JObject(
+                new JProperty("timestamp", DateTime.UtcNow),
+                new JProperty("status", "success"),
+                new JProperty("statusCode", context.Response.StatusCode),
+                new JProperty("operation", context.Operation.Name),
+                new JProperty("responseHeaders", new JObject(
+                    new JProperty("X-RateLimit-Remaining", context.Response.Headers.GetValueOrDefault("X-RateLimit-Remaining", "Unknown")),
+                    new JProperty("X-RateLimit-Reset", context.Response.Headers.GetValueOrDefault("X-RateLimit-Reset", "Unknown"))
+                ))
+                ).ToString();
+            }</trace>
+    </outbound>
+    <on-error >
+        <trace source="ErrorInformation" severity="error">@{
+            return new JObject(
+            new JProperty("timestamp", DateTime.UtcNow),
+            new JProperty("status", "error"),
+            new JProperty("statusCode", context.Response.StatusCode),
+            new JProperty("error", context.LastError?.Message ?? "Unknown error"),
+            new JProperty("operation", context.Operation.Name)
+            ).ToString();
+        }</trace>
+    </on-error>
+</policies>

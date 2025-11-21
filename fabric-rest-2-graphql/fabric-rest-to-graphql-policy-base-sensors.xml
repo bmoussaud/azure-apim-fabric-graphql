@@ -1,0 +1,38 @@
+
+<policies>
+
+    <inbound>
+        <base />
+        <set-body>@{
+            var query = @"query {
+                factory_iot_datas(first: 10) {
+                    items {
+                        Timestamp
+                        BuildingID
+                        DeviceID
+                    }
+                }
+            }";
+            
+            var requestBody = new {
+                query = query,
+                variables = new { 
+                }
+            };
+            
+            return JsonConvert.SerializeObject(requestBody);
+        }</set-body>
+    </inbound>
+    <!-- Control if and how the requests are forwarded to services  -->
+    <backend>
+        <base />
+    </backend>
+    <!-- Customize the responses -->
+    <outbound>
+        <base />
+    </outbound>
+    <!-- Handle exceptions and customize error responses  -->
+    <on-error>
+        <base />
+    </on-error>
+</policies>
